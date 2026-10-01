@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --paper:#FAFAF7;
+    --paper:#F7F2E9;
     --ink:#1C1C1A;
     --steel:#83837A;
     --line:#DEDED4;
@@ -63,6 +63,13 @@
   .caption{border-top:1px solid var(--line);margin-top:.7rem;padding-top:.55rem;}
   .caption .title{font-size:.95rem;font-weight:500;margin:0;}
   .caption .cat{font-family:'IBM Plex Mono',monospace;font-size:.68rem;color:var(--signal);margin:.25rem 0 0;}
+  .caption .desc{font-size:.8rem;color:var(--steel);margin:.4rem 0 0;line-height:1.4;}
+
+  .about{max-width:640px;margin-bottom:2.5rem;padding-bottom:2.25rem;border-bottom:1px solid var(--line);}
+  .about p{font-size:.95rem;line-height:1.55;margin:0 0 .9rem;}
+  .about .tags{font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--steel);margin:0 0 .6rem;}
+  .about .contact{font-family:'IBM Plex Mono',monospace;font-size:.75rem;}
+  .about .contact a{color:var(--ink);}
 
   .more{border:1px dashed var(--line);border-radius:3px;min-height:100px;display:flex;align-items:center;justify-content:center;}
   .more span{font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--steel);}
@@ -78,6 +85,12 @@
     <p class="name">Vic</p>
     <p class="role">Diseño industrial</p>
   </header>
+
+  <div class="about">
+    <p>Ingeniero de empaque (Packaging Engineer) con base en París — 9 años desarrollando packaging PET/rPET para bebidas en Envases Universales, con raíces en diseño industrial de producto que incluyen hardware electrónico, punto de venta y diseño de eventos.</p>
+    <p class="tags">pet/rpet · blow molding · solidworks · keyshot · lightweighting</p>
+    <p class="contact"><a href="https://www.linkedin.com/in/victor-a-castro-medina" target="_blank" rel="noopener">linkedin.com/in/victor-a-castro-medina</a> · <a href="mailto:vacm182@hotmail.com">vacm182@hotmail.com</a></p>
+  </div>
 
   <div class="pills">
     <button class="pill active" data-cat="todo">todo</button>
@@ -346,18 +359,20 @@
     </div>
 
     <div class="card" data-cat="escolares">
-      <div class="placeholder" style="min-height:180px;"><span>imagen pendiente</span></div>
+      <div class="placeholder" style="min-height:140px;"><span>imagen pendiente</span></div>
       <div class="caption">
-        <p class="title">Proyecto escolar</p>
+        <p class="title">ME310 — Stanford / UNAM</p>
         <p class="cat">escolares</p>
+        <p class="desc">Design Thinking Innovation Program, en colaboración con Stanford. 2009–2010.</p>
       </div>
     </div>
 
     <div class="card" data-cat="packaging">
-      <div class="placeholder" style="min-height:130px;"><span>imagen pendiente</span></div>
+      <div class="placeholder" style="min-height:140px;"><span>imagen pendiente</span></div>
       <div class="caption">
-        <p class="title">Packaging</p>
+        <p class="title">Envases Universales</p>
         <p class="cat">packaging</p>
+        <p class="desc">Desarrollo de packaging PET/rPET para bebidas, con proveedores OEM Sidel, Husky, Krones y KHS. 2016–2025. 18% reducción de material, 100% integración rPET.</p>
       </div>
     </div>
 
