@@ -208,5 +208,129 @@ var CASES = [
       process: "J'ai comparé des échantillons d'un moule de fournisseur coréen (Jung Sung) à notre moule ASB et documenté les défauts : accumulation de matière, effet loupe, opacité au point d'injection et fond incomplet. J'ai mesuré des bidons de 10 L par rapport à l'échantillon du client et analysé l'angle minimal de stabilité d'un fond standard face à un fond BOSS (9,6° contre 13,67°). Pour le bidon de 10 L à épaule plate, j'ai conçu la bouteille, une poignée trapézoïdale de 7,4 g et le plan de palettisation, et accompagné le démarrage en production.",
       result: "Des décisions fournisseur et design fondées sur des preuves mesurables, et un bidon empilable produit et palettisé."
     }
+  },
+  {
+    "slug": "barracuda",
+    "count": 13,
+    "brand": "Luidia · eBeam",
+    "cat": "hardware",
+    "dir": "hardware",
+    "es": {
+      "title": "Proyecto Barracuda — stylus interactivo para el aula",
+      "sub": "Investigación con usuarios, prototipado rápido y definición de producto",
+      "challenge": "Luidia (eBeam) convierte cualquier pizarrón o superficie de proyección en una pantalla interactiva. El stylus era el punto de contacto principal con maestros y alumnos, y el equipo quería saber qué funciones realmente aportaban valor en el aula antes de invertir en ingeniería: scroll, botones, hover, carga, buzzer, uso fuera del pizarrón.",
+      "process": "Seguimos un ciclo de needfinding y benchmarking → brainstorm → prototipos → pruebas → evaluación. Construí decenas de modelos de forma en espuma y cartón, prototipos funcionales cableados y exploraciones como un guante con sensores y un puntero. Los probamos con 5 personas internas y 12 usuarios externos (9 maestros y 3 coordinadores de tecnología) y documentamos cada hallazgo: el scroll es muy deseado, menos botones es mejor (3 como máximo), los botones traseros distraen y la gente espera poder apuntar en cuanto se aleja del pizarrón.",
+      "result": "Un set de funciones recomendado para el stylus (zona segura para el dedo, rueda de scroll en lugar del botón frontal) y para el software, presentado en la revisión final de septiembre de 2011 junto con los renders del concepto y los siguientes pasos para Ingeniería.",
+      "role": "Diseñador industrial y de producto · Luidia Inc. (eBeam), California · 2011–2012"
+    },
+    "en": {
+      "title": "Project Barracuda — interactive classroom stylus",
+      "sub": "User research, rapid prototyping and product definition",
+      "challenge": "Luidia (eBeam) turns any whiteboard or projection surface into an interactive display. The stylus was the main touchpoint for teachers and students, and the team needed to know which features truly added value in the classroom before investing in engineering: scroll, buttons, hover, charging, buzzer, off-board use.",
+      "process": "We ran a needfinding and benchmarking → brainstorm → prototype → test → evaluate cycle. I built dozens of foam and cardboard form models, wired functional prototypes and explorations such as a sensor glove and a pointer. We tested them with 5 internal people and 12 external users (9 teachers and 3 technology coordinators) and documented every finding: scroll is highly wanted, fewer buttons are better (3 at most), rear buttons are distracting, and people expect to point as soon as they step away from the board.",
+      "result": "A recommended feature set for the stylus (finger safe zone, scroll wheel replacing the front button) and for the software, presented at the September 2011 final review together with concept renders and next steps for Engineering.",
+      "role": "Industrial & product designer · Luidia Inc. (eBeam), California · 2011–2012"
+    },
+    "fr": {
+      "title": "Projet Barracuda — stylet interactif pour la classe",
+      "sub": "Recherche utilisateurs, prototypage rapide et définition produit",
+      "challenge": "Luidia (eBeam) transforme n'importe quel tableau blanc ou surface de projection en écran interactif. Le stylet était le principal point de contact avec enseignants et élèves, et l'équipe devait savoir quelles fonctions apportaient vraiment de la valeur en classe avant d'investir en ingénierie : défilement, boutons, survol, charge, buzzer, usage hors du tableau.",
+      "process": "Nous avons suivi un cycle needfinding et benchmarking → brainstorming → prototypes → tests → évaluation. J'ai construit des dizaines de maquettes de forme en mousse et carton, des prototypes fonctionnels câblés et des explorations comme un gant à capteurs et un pointeur. Nous les avons testés avec 5 personnes internes et 12 utilisateurs externes (9 enseignants et 3 coordinateurs techniques) et documenté chaque constat : le défilement est très demandé, moins de boutons c'est mieux (3 au maximum), les boutons arrière distraient et les utilisateurs veulent pointer dès qu'ils s'éloignent du tableau.",
+      "result": "Un ensemble de fonctions recommandé pour le stylet (zone de sécurité pour le doigt, molette de défilement à la place du bouton avant) et pour le logiciel, présenté lors de la revue finale de septembre 2011 avec les rendus du concept et les prochaines étapes pour l'Ingénierie.",
+      "role": "Designer industriel et produit · Luidia Inc. (eBeam), Californie · 2011–2012"
+    }
+  },
+  {
+    "slug": "borrador",
+    "count": 14,
+    "brand": "Luidia · eBeam",
+    "cat": "hardware",
+    "dir": "hardware",
+    "es": {
+      "title": "Borrador interactivo y domo sensor",
+      "sub": "Exploración de forma con prototipos físicos probados en pizarrón",
+      "challenge": "El sistema eBeam necesitaba accesorios que se sintieran naturales sobre el pizarrón: un borrador que el sistema pudiera detectar y una carcasa para el sensor que se montara en la superficie sin estorbar. Había que resolver agarre, tamaño, montaje y la convivencia con la electrónica.",
+      "process": "Empecé con modelos rápidos en cartón, espuma y madera de distintos diámetros y perfiles, y los probé directamente en el pizarrón con usuarios para evaluar agarre, presión y movimiento. A partir de esos hallazgos pasé a prototipos impresos y piezas desarmables para revisar el ensamble interno, y desarrollé en 3D varias familias de forma —base plana con asa, domo y perfiles de pared— con sus vistas explotadas.",
+      "result": "Una familia de conceptos de borrador y domo sensor validados en uso real, con la arquitectura de piezas y renders listos para revisión con Ingeniería.",
+      "role": "Diseñador industrial y de producto · Luidia Inc. (eBeam), California · 2011–2012"
+    },
+    "en": {
+      "title": "Interactive eraser and sensor dome",
+      "sub": "Form exploration through physical prototypes tested on the whiteboard",
+      "challenge": "The eBeam system needed accessories that felt natural on the whiteboard: an eraser the system could detect and a sensor housing that mounted on the surface without getting in the way. Grip, size, mounting and integration with the electronics all had to be solved.",
+      "process": "I started with quick cardboard, foam and wood models of different diameters and profiles and tested them directly on the whiteboard with users to evaluate grip, pressure and motion. From those findings I moved to printed prototypes and take-apart parts to review the internal assembly, and developed several form families in 3D —flat base with handle, dome and wall profiles— with exploded views.",
+      "result": "A family of eraser and sensor-dome concepts validated in real use, with part architecture and renders ready for engineering review.",
+      "role": "Industrial & product designer · Luidia Inc. (eBeam), California · 2011–2012"
+    },
+    "fr": {
+      "title": "Effaceur interactif et dôme capteur",
+      "sub": "Exploration de forme par prototypes physiques testés au tableau",
+      "challenge": "Le système eBeam avait besoin d'accessoires naturels à utiliser au tableau : un effaceur détectable par le système et un boîtier de capteur qui se fixe sur la surface sans gêner. Il fallait résoudre la prise en main, la taille, la fixation et l'intégration de l'électronique.",
+      "process": "J'ai commencé par des maquettes rapides en carton, mousse et bois de différents diamètres et profils, testées directement au tableau avec des utilisateurs pour évaluer prise, pression et mouvement. À partir de ces constats, je suis passé à des prototypes imprimés et des pièces démontables pour étudier l'assemblage interne, puis j'ai développé en 3D plusieurs familles de formes —base plate avec poignée, dôme et profils muraux— avec leurs vues éclatées.",
+      "result": "Une famille de concepts d'effaceur et de dôme capteur validés en usage réel, avec architecture des pièces et rendus prêts pour la revue d'ingénierie.",
+      "role": "Designer industriel et produit · Luidia Inc. (eBeam), Californie · 2011–2012"
+    }
+  },
+  {
+    "slug": "captura",
+    "count": 12,
+    "brand": "Luidia · eBeam · Polycom · Cisco",
+    "cat": "hardware",
+    "dir": "hardware",
+    "es": {
+      "title": "Barra de captura y charola para pantallas interactivas",
+      "sub": "Familia de accesorios eBeam y conceptos co-branded para videoconferencia",
+      "challenge": "Para llevar eBeam a salas de juntas y videoconferencia, el receptor y los stylus debían integrarse a pantallas planas como un accesorio de línea: guardar y cargar las plumas, ofrecer accesos directos a herramientas y verse a la altura de marcas como Polycom y Cisco.",
+      "process": "Diseñé varias arquitecturas —barra cilíndrica bajo la pantalla, charola de aluminio con bandeja para pluma y panel de iconos (puntero, pluma, borrador, pantalla)— y exploré materiales, iluminación del logo y su relación con distintos tamaños de pantalla. Desarrollé además conceptos co-branded: una barra para Polycom y un set stylus + receptor para la tablet Cisco Cius.",
+      "result": "Una familia de accesorios coherente, presentada con renders en contexto para las conversaciones con socios y la definición de producto.",
+      "role": "Diseñador industrial y de producto · Luidia Inc. (eBeam), California · 2011–2012"
+    },
+    "en": {
+      "title": "Capture bar and pen tray for interactive displays",
+      "sub": "eBeam accessory family and co-branded videoconferencing concepts",
+      "challenge": "To bring eBeam into meeting and videoconferencing rooms, the receiver and styluses had to integrate with flat-panel displays as a first-class accessory: store and charge the pens, offer tool shortcuts and look at home next to brands like Polycom and Cisco.",
+      "process": "I designed several architectures —a cylindrical bar below the screen, an aluminium tray with pen cradle and icon panel (pointer, pen, eraser, screen)— and explored materials, logo lighting and fit across screen sizes. I also developed co-branded concepts: a bar for Polycom and a stylus + receiver set for the Cisco Cius tablet.",
+      "result": "A coherent accessory family, presented through in-context renders for partner discussions and product definition.",
+      "role": "Industrial & product designer · Luidia Inc. (eBeam), California · 2011–2012"
+    },
+    "fr": {
+      "title": "Barre de capture et plateau pour écrans interactifs",
+      "sub": "Famille d'accessoires eBeam et concepts co-brandés pour la visioconférence",
+      "challenge": "Pour amener eBeam dans les salles de réunion et de visioconférence, le récepteur et les stylets devaient s'intégrer aux écrans plats comme un véritable accessoire : ranger et charger les stylets, offrir des raccourcis d'outils et tenir la comparaison avec des marques comme Polycom et Cisco.",
+      "process": "J'ai conçu plusieurs architectures —barre cylindrique sous l'écran, plateau en aluminium avec support de stylet et panneau d'icônes (pointeur, stylet, gomme, écran)— et exploré matériaux, éclairage du logo et adaptation à différentes tailles d'écran. J'ai aussi développé des concepts co-brandés : une barre pour Polycom et un ensemble stylet + récepteur pour la tablette Cisco Cius.",
+      "result": "Une famille d'accessoires cohérente, présentée par des rendus en situation pour les échanges avec les partenaires et la définition produit.",
+      "role": "Designer industriel et produit · Luidia Inc. (eBeam), Californie · 2011–2012"
+    }
+  },
+  {
+    "slug": "proyector",
+    "count": 10,
+    "brand": "Luidia · eBeam",
+    "cat": "hardware",
+    "dir": "hardware",
+    "es": {
+      "title": "Sensor eBeam para proyector de tiro corto",
+      "sub": "Integración del receptor en el brazo de montaje del proyector",
+      "challenge": "En las aulas el proyector de tiro corto se monta en un brazo sobre el pizarrón, y es justo donde el sensor eBeam tiene la mejor vista de la superficie. El reto era integrar el receptor ahí, sin cables sueltos ni piezas que parecieran añadidas, y compatible con los brazos de montaje existentes.",
+      "process": "Estudié la geometría del proyector y del brazo y propuse dos posiciones: un módulo en la placa de pared y una carcasa que abraza el frente del proyector. Diseñé las piezas en 3D con su ensamble de dos partes, revisé el paso de cables y la línea de visión del sensor, y validé el conjunto con renders en contexto de aula.",
+      "result": "Un accesorio de integración limpio que hace que el sensor parezca parte del proyector, listo para discutir fabricación y compatibilidad con Ingeniería.",
+      "role": "Diseñador industrial y de producto · Luidia Inc. (eBeam), California · 2011–2012"
+    },
+    "en": {
+      "title": "eBeam sensor for short-throw projectors",
+      "sub": "Integrating the receiver into the projector mounting arm",
+      "challenge": "In classrooms the short-throw projector hangs on an arm above the whiteboard, exactly where the eBeam sensor has the best view of the surface. The challenge was to integrate the receiver there with no loose cables or add-on look, and compatible with existing mounting arms.",
+      "process": "I studied the projector and arm geometry and proposed two positions: a module on the wall plate and a housing that wraps the front of the projector. I designed the parts in 3D as a two-piece assembly, checked cable routing and the sensor's line of sight, and validated the set with in-classroom renders.",
+      "result": "A clean integration accessory that makes the sensor look like part of the projector, ready to discuss manufacturing and compatibility with Engineering.",
+      "role": "Industrial & product designer · Luidia Inc. (eBeam), California · 2011–2012"
+    },
+    "fr": {
+      "title": "Capteur eBeam pour projecteur à courte focale",
+      "sub": "Intégration du récepteur dans le bras de fixation du projecteur",
+      "challenge": "En classe, le projecteur à courte focale est fixé sur un bras au-dessus du tableau, précisément là où le capteur eBeam a la meilleure vue sur la surface. Le défi était d'y intégrer le récepteur sans câbles apparents ni aspect rapporté, en restant compatible avec les bras existants.",
+      "process": "J'ai étudié la géométrie du projecteur et du bras et proposé deux positions : un module sur la platine murale et un boîtier qui enveloppe l'avant du projecteur. J'ai conçu les pièces en 3D en assemblage de deux parties, vérifié le passage des câbles et le champ de vision du capteur, puis validé l'ensemble par des rendus en situation de classe.",
+      "result": "Un accessoire d'intégration propre qui fait paraître le capteur comme une partie du projecteur, prêt à être discuté avec l'Ingénierie pour la fabrication et la compatibilité.",
+      "role": "Designer industriel et produit · Luidia Inc. (eBeam), Californie · 2011–2012"
+    }
   }
 ];

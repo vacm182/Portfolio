@@ -19,6 +19,7 @@ var T = {
   result:    {es:"Resultado", en:"Result", fr:"Résultat"},
   role_lbl:  {es:"Rol", en:"Role", fr:"Rôle"},
   role_val:  {es:"Diseño e ingeniería de producto PET · Envases Universales", en:"PET product design & engineering · Envases Universales", fr:"Design et ingénierie produit PET · Envases Universales"},
+  company:   {es:"Empresa", en:"Company", fr:"Entreprise"},
   client:    {es:"Cliente", en:"Client", fr:"Client"},
   prev:      {es:"← anterior", en:"← previous", fr:"← précédent"},
   next:      {es:"siguiente →", en:"next →", fr:"suivant →"},
