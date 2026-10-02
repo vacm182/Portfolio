@@ -332,5 +332,160 @@ var CASES = [
       "result": "Un accessoire d'intégration propre qui fait paraître le capteur comme une partie du projecteur, prêt à être discuté avec l'Ingénierie pour la fabrication et la compatibilité.",
       "role": "Designer industriel et produit · Luidia Inc. (eBeam), Californie · 2011–2012"
     }
+  },
+  {
+    "slug": "starwars",
+    "count": 15,
+    "brand": "Disney · Star Wars Run México 2015",
+    "cat": "eventos",
+    "dir": "eventos",
+    "es": {
+      "title": "Star Wars Run México — de la entrega de números a la meta",
+      "sub": "Layout, escenarios, arcos y módulos con planos de fabricación · nov 2015",
+      "challenge": "La primera Star Wars Run en México tenía dos frentes: una entrega de números de varios días en Centro Banamex, con miles de corredores, patrocinadores y exhibición de producto, y la carrera sobre Paseo de la Reforma con arco de salida, meta y premiación junto al Ángel de la Independencia. Todo debía montarse en pocas horas, con piezas repetibles y fáciles de transportar.",
+      "process": "Partí de un levantamiento del recinto y desarrollé el layout en más de diez versiones: flujo de entrada y salida, 56 módulos de entrega, chip check, zona de patrocinadores, museografía y merchandising. Diseñé cada elemento en 3D y lo bajé a planos con cotas para el taller: tarima curva modular, glorificador, módulos de patrocinador, un photo opp en forma de empaque de juguete a escala real, además del plano de iluminación y una guía de montaje para los kilómetros de la ruta.",
+      "result": "Un sistema de piezas modulares documentado de punta a punta —layout, renders y planos de fabricación— que permitió producir y montar la entrega de números y la carrera en los tiempos del evento.",
+      "role": "Diseñador creativo · Boser Producciones, Ciudad de México · 2014–2016"
+    },
+    "en": {
+      "title": "Star Wars Run Mexico — from bib pickup to finish line",
+      "sub": "Layout, stages, arches and modules with fabrication drawings · Nov 2015",
+      "challenge": "Mexico's first Star Wars Run had two fronts: a multi-day bib pickup at Centro Banamex with thousands of runners, sponsors and product displays, and the race along Paseo de la Reforma with a start arch, finish line and podium next to the Angel of Independence. Everything had to go up in a few hours, using repeatable, easy-to-transport pieces.",
+      "process": "I started from a venue survey and developed the layout through more than ten versions: entry and exit flow, 56 pickup modules, chip check, sponsor area, exhibition and merchandising. I designed each element in 3D and turned it into dimensioned drawings for the workshop: a modular curved stage, the finisher wall, sponsor modules, a life-size toy-package photo opportunity, plus the lighting plan and an assembly guide for the route's kilometre markers.",
+      "result": "A system of modular pieces documented end to end —layout, renders and fabrication drawings— that made it possible to build and install both the bib pickup and the race within the event's timeline.",
+      "role": "Creative designer · Boser Producciones, Mexico City · 2014–2016"
+    },
+    "fr": {
+      "title": "Star Wars Run Mexique — de la remise des dossards à l'arrivée",
+      "sub": "Plan d'implantation, scènes, arches et modules avec plans de fabrication · nov. 2015",
+      "challenge": "La première Star Wars Run au Mexique avait deux volets : une remise des dossards sur plusieurs jours au Centro Banamex, avec des milliers de coureurs, des sponsors et des présentoirs produits, et la course sur le Paseo de la Reforma avec arche de départ, arrivée et podium près de l'Ange de l'Indépendance. Tout devait être monté en quelques heures, avec des éléments répétables et faciles à transporter.",
+      "process": "Je suis parti d'un relevé du site et j'ai fait évoluer le plan d'implantation sur plus de dix versions : flux d'entrée et de sortie, 56 modules de remise, contrôle des puces, espace sponsors, muséographie et merchandising. J'ai conçu chaque élément en 3D puis en plans cotés pour l'atelier : scène courbe modulaire, mur des finishers, modules sponsors, un photocall en forme d'emballage de jouet à taille réelle, ainsi que le plan d'éclairage et un guide de montage pour les bornes kilométriques.",
+      "result": "Un système d'éléments modulaires documenté de bout en bout —implantation, rendus et plans de fabrication— qui a permis de produire et d'installer la remise des dossards et la course dans les délais de l'événement.",
+      "role": "Designer créatif · Boser Producciones, Mexico · 2014–2016"
+    }
+  },
+  {
+    "slug": "marvel",
+    "count": 14,
+    "brand": "Disney · Marvel Night Run",
+    "cat": "eventos",
+    "dir": "eventos",
+    "es": {
+      "title": "Marvel Night Run 2015–2016 — Estadio Olímpico Universitario",
+      "sub": "Del glorificador al layout completo de la carrera en dos ediciones",
+      "challenge": "La carrera nocturna de Marvel en Ciudad Universitaria reunía a miles de corredores. En 2015 el encargo fue el glorificador —el muro de fotos de llegada con figuras de los personajes— y el pabellón de activaciones de patrocinadores. Para 2016 la responsabilidad creció a todo el evento: layout, escenarios, activaciones y ambientación de la ruta.",
+      "process": "En 2015 diseñé el glorificador como una estructura escalonada de 7.3 × 3.6 m con plataformas para las figuras, y el pabellón de activaciones sobre estructura de truss con zonas de juego, photo opp y pantallas. En 2016 desarrollé el layout de entrega de números y salida, el escenario principal y el de calentamiento con sus cotas, un muro de escalada y activaciones de Spider-Man y Capitán América, el chip check y los totems de kilómetro con iluminación.",
+      "result": "Dos ediciones resueltas con renders para venta y planos con medidas para producción; el alcance pasó de una pieza clave en 2015 al diseño integral de la carrera en 2016.",
+      "role": "Diseñador creativo · Boser Producciones, Ciudad de México · 2014–2016"
+    },
+    "en": {
+      "title": "Marvel Night Run 2015–2016 — Olympic University Stadium",
+      "sub": "From the finisher wall to the full race layout across two editions",
+      "challenge": "Marvel's night race at Ciudad Universitaria brought together thousands of runners. In 2015 the brief was the finisher wall —the arrival photo wall with character figures— and the sponsors' activation pavilion. In 2016 the scope grew to the whole event: layout, stages, activations and route dressing.",
+      "process": "In 2015 I designed the finisher wall as a stepped 7.3 × 3.6 m structure with platforms for the figures, and the activation pavilion on a truss structure with play areas, photo opportunities and screens. In 2016 I developed the bib-pickup and start layout, the main and warm-up stages with their dimensions, a climbing wall and Spider-Man and Captain America activations, the chip check and lit kilometre totems.",
+      "result": "Two editions delivered with renders for sales and dimensioned drawings for production; the scope went from one key piece in 2015 to designing the whole race in 2016.",
+      "role": "Creative designer · Boser Producciones, Mexico City · 2014–2016"
+    },
+    "fr": {
+      "title": "Marvel Night Run 2015–2016 — Stade olympique universitaire",
+      "sub": "Du mur des finishers à l'implantation complète de la course, sur deux éditions",
+      "challenge": "La course nocturne Marvel à la Ciudad Universitaria rassemblait des milliers de coureurs. En 2015, la demande portait sur le mur des finishers —le mur photo d'arrivée avec figurines des personnages— et le pavillon d'activations des sponsors. En 2016, le périmètre s'est étendu à tout l'événement : implantation, scènes, activations et habillage du parcours.",
+      "process": "En 2015, j'ai conçu le mur des finishers comme une structure en gradins de 7,3 × 3,6 m avec plateformes pour les figurines, et le pavillon d'activations sur structure truss avec zones de jeu, photocalls et écrans. En 2016, j'ai développé l'implantation de la remise des dossards et du départ, la scène principale et celle d'échauffement avec leurs cotes, un mur d'escalade, des activations Spider-Man et Captain America, le contrôle des puces et des totems kilométriques lumineux.",
+      "result": "Deux éditions livrées avec des rendus pour la vente et des plans cotés pour la production ; le périmètre est passé d'un élément clé en 2015 à la conception de toute la course en 2016.",
+      "role": "Designer créatif · Boser Producciones, Mexico · 2014–2016"
+    }
+  },
+  {
+    "slug": "stands",
+    "count": 13,
+    "brand": "PICSA · Renault · Marvel",
+    "cat": "eventos",
+    "dir": "eventos",
+    "es": {
+      "title": "Stands de exhibición — industria, automotriz y entretenimiento",
+      "sub": "Tres stands, tres contextos: expo industrial, centro comercial y Comic Con",
+      "challenge": "Un stand tiene que comunicar una marca en pocos metros cuadrados, montarse en horas y viajar en piezas. Tres encargos lo pusieron a prueba en contextos muy distintos: PICSA, distribuidor de bombas industriales Pentair, en una expo técnica; Renault, que lanzaba la Duster junto con Frozen de Disney en un centro comercial; y Marvel, con el stand de Capitán América: Civil War en La Mole Comic Con.",
+      "process": "Para PICSA diseñé un cubo volado de 6.10 m sobre una columna inclinada que exhibe las bombas en la base, documentado con planos de tarima, bastidores y copete volado; en 2016 una segunda versión en marco abierto. Para Renault, una plataforma que integra el auto real con muros temáticos y un área de atención. Para Marvel, un recorrido con escenografía de los dos bandos, réplicas de personajes y pantallas.",
+      "result": "Stands resueltos de la idea a la fabricación con renders y planos acotados; el de PICSA se repitió en dos ediciones de la expo.",
+      "role": "Diseñador creativo · Boser Producciones, Ciudad de México · 2014–2016"
+    },
+    "en": {
+      "title": "Exhibition stands — industrial, automotive and entertainment",
+      "sub": "Three stands, three contexts: industrial expo, shopping mall and Comic Con",
+      "challenge": "A stand has to communicate a brand in a few square metres, go up in hours and travel in pieces. Three briefs put that to the test in very different settings: PICSA, a distributor of Pentair industrial pumps, at a technical expo; Renault, launching the Duster alongside Disney's Frozen in a shopping mall; and Marvel, with the Captain America: Civil War stand at La Mole Comic Con.",
+      "process": "For PICSA I designed a 6.10 m cantilevered cube on a tilted column that displays the pumps at its base, documented with drawings for the platform, frames and cantilevered header; in 2016 a second, open-frame version. For Renault, a platform integrating the real car with themed walls and a service area. For Marvel, a walkthrough with scenery for both sides, character replicas and screens.",
+      "result": "Stands taken from idea to fabrication with renders and dimensioned drawings; the PICSA stand was reused for two editions of the expo.",
+      "role": "Creative designer · Boser Producciones, Mexico City · 2014–2016"
+    },
+    "fr": {
+      "title": "Stands d'exposition — industrie, automobile et divertissement",
+      "sub": "Trois stands, trois contextes : salon industriel, centre commercial et Comic Con",
+      "challenge": "Un stand doit communiquer une marque sur quelques mètres carrés, se monter en quelques heures et voyager en pièces détachées. Trois projets l'ont mis à l'épreuve dans des contextes très différents : PICSA, distributeur de pompes industrielles Pentair, sur un salon technique ; Renault, qui lançait le Duster avec La Reine des neiges de Disney dans un centre commercial ; et Marvel, avec le stand Captain America : Civil War à La Mole Comic Con.",
+      "process": "Pour PICSA, j'ai conçu un cube en porte-à-faux de 6,10 m sur une colonne inclinée qui expose les pompes à sa base, documenté par des plans de l'estrade, des châssis et du bandeau en porte-à-faux ; en 2016, une seconde version à cadre ouvert. Pour Renault, une plateforme intégrant le vrai véhicule avec des murs thématiques et un espace d'accueil. Pour Marvel, un parcours scénographié des deux camps, avec répliques de personnages et écrans.",
+      "result": "Des stands menés de l'idée à la fabrication avec rendus et plans cotés ; celui de PICSA a été réutilisé sur deux éditions du salon.",
+      "role": "Designer créatif · Boser Producciones, Mexico · 2014–2016"
+    }
+  },
+  {
+    "slug": "aeromexico",
+    "count": 14,
+    "brand": "Aeroméxico",
+    "cat": "eventos",
+    "dir": "eventos",
+    "es": {
+      "title": "Aeroméxico — eventos corporativos en hangar y convención",
+      "sub": "Planeación de espacios para cientos de asistentes · 2015–2016",
+      "challenge": "Aeroméxico organizaba eventos internos de gran escala con mensajes de cultura y resultados para sus equipos. El más retador fue dentro de un hangar, con un Boeing 787 como parte de la escenografía; le siguieron una convención en el Salón Nuevo León con plenaria, cena-show y salas de trabajo, y el lanzamiento de su nuevo sitio web.",
+      "process": "Modelé el hangar completo con el avión para definir gradas, escenario, recorridos, zona de oficinas temáticas y carpa exterior, cuidando las circulaciones y la visibilidad. Para la convención desarrollé los layouts de cada configuración —plenaria y cena-show con conteo de mesas y asientos, y breakouts— más el escenario, pantallas y señalización. Para el lanzamiento web diseñé un escenario circular con pantallas en abanico, con sus medidas generales.",
+      "result": "Tres formatos de evento para el mismo cliente, cada uno con layout de capacidad, renders de aprobación y medidas para producción.",
+      "role": "Diseñador creativo · Boser Producciones, Ciudad de México · 2014–2016"
+    },
+    "en": {
+      "title": "Aeroméxico — corporate events in a hangar and a convention hall",
+      "sub": "Space planning for hundreds of attendees · 2015–2016",
+      "challenge": "Aeroméxico held large internal events to share culture and results with its teams. The most challenging took place inside a hangar, with a Boeing 787 as part of the set; it was followed by a convention at the Salón Nuevo León with plenary, dinner show and breakout rooms, and the launch of its new website.",
+      "process": "I modelled the entire hangar with the aircraft to define the grandstands, stage, circulation, themed office area and outdoor tent, focusing on flows and sightlines. For the convention I developed the layout for each configuration —plenary and dinner show with table and seat counts, plus breakouts— along with the stage, screens and signage. For the web launch I designed a circular stage with fanned screens and its overall dimensions.",
+      "result": "Three event formats for the same client, each with a capacity layout, approval renders and production dimensions.",
+      "role": "Creative designer · Boser Producciones, Mexico City · 2014–2016"
+    },
+    "fr": {
+      "title": "Aeroméxico — événements d'entreprise en hangar et en salle de congrès",
+      "sub": "Aménagement d'espaces pour des centaines de participants · 2015–2016",
+      "challenge": "Aeroméxico organisait de grands événements internes pour partager sa culture et ses résultats avec ses équipes. Le plus exigeant s'est tenu dans un hangar, avec un Boeing 787 intégré au décor ; ont suivi une convention au Salón Nuevo León avec plénière, dîner-spectacle et salles de travail, et le lancement de son nouveau site web.",
+      "process": "J'ai modélisé tout le hangar avec l'avion pour définir les gradins, la scène, les circulations, l'espace de bureaux thématiques et la tente extérieure, en veillant aux flux et à la visibilité. Pour la convention, j'ai développé l'implantation de chaque configuration —plénière et dîner-spectacle avec le décompte des tables et des places, ainsi que les ateliers— avec la scène, les écrans et la signalétique. Pour le lancement web, j'ai conçu une scène circulaire avec écrans en éventail et ses cotes générales.",
+      "result": "Trois formats d'événement pour un même client, chacun avec plan de capacité, rendus de validation et cotes pour la production.",
+      "role": "Designer créatif · Boser Producciones, Mexico · 2014–2016"
+    }
+  },
+  {
+    "slug": "premieres",
+    "count": 8,
+    "brand": "Disney · Paramount",
+    "cat": "eventos",
+    "dir": "eventos",
+    "es": {
+      "title": "Premieres de cine — alfombras, recorridos y ambientación",
+      "sub": "Cenicienta, El libro de la selva, El reino de los monos y más · 2014–2016",
+      "challenge": "Una premiere convierte un cine, un hotel o un edificio histórico en el mundo de la película por una sola noche. Hay que guiar a invitados, prensa y talento por un recorrido claro, dar puntos de foto y montar todo sin dañar el recinto, a menudo en horario nocturno.",
+      "process": "Diseñé recorridos y ambientaciones para estrenos como Cenicienta (alfombra azul en Antara y el Baile Real en el Westin Santa Fe), El libro de la selva en Plaza Universidad, El reino de los monos en el Teatro Ocampo de Cuernavaca, Guerra de papás, Descendientes y Soy Luna: plano de recorrido, fachadas, muros verdes, escenografía y photo opps adaptados a cada sede.",
+      "result": "Más de diez estrenos con un mismo método: leer el recinto, ordenar los flujos y construir la experiencia con piezas montables en una noche.",
+      "role": "Diseñador creativo · Boser Producciones, Ciudad de México · 2014–2016"
+    },
+    "en": {
+      "title": "Film premieres — carpets, guest routes and set dressing",
+      "sub": "Cinderella, The Jungle Book, Monkey Kingdom and more · 2014–2016",
+      "challenge": "A premiere turns a cinema, a hotel or a historic building into the world of the film for a single night. Guests, press and talent need a clear route, photo points have to be planned, and everything must go up without damaging the venue, often overnight.",
+      "process": "I designed routes and set dressing for premieres such as Cinderella (blue carpet at Antara and the Royal Ball at the Westin Santa Fe), The Jungle Book at Plaza Universidad, Monkey Kingdom at the Teatro Ocampo in Cuernavaca, Daddy's Home, Descendants and Soy Luna: route plans, façades, green walls, scenery and photo opportunities adapted to each venue.",
+      "result": "More than ten premieres delivered with the same method: read the venue, organise the flows and build the experience with pieces that can be installed in one night.",
+      "role": "Creative designer · Boser Producciones, Mexico City · 2014–2016"
+    },
+    "fr": {
+      "title": "Avant-premières de cinéma — tapis, parcours et habillage",
+      "sub": "Cendrillon, Le Livre de la jungle, Le Royaume des singes et d'autres · 2014–2016",
+      "challenge": "Une avant-première transforme un cinéma, un hôtel ou un bâtiment historique en univers du film le temps d'une soirée. Il faut guider invités, presse et talents sur un parcours clair, prévoir les points photo et tout installer sans abîmer le lieu, souvent de nuit.",
+      "process": "J'ai conçu les parcours et l'habillage d'avant-premières comme Cendrillon (tapis bleu à Antara et le Bal royal au Westin Santa Fe), Le Livre de la jungle à Plaza Universidad, Le Royaume des singes au Teatro Ocampo de Cuernavaca, Very Bad Dads, Descendants et Soy Luna : plans de parcours, façades, murs végétaux, décors et photocalls adaptés à chaque lieu.",
+      "result": "Plus de dix avant-premières menées avec la même méthode : lire le lieu, organiser les flux et construire l'expérience avec des éléments installables en une nuit.",
+      "role": "Designer créatif · Boser Producciones, Mexico · 2014–2016"
+    }
   }
 ];

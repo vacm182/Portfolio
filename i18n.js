@@ -46,6 +46,7 @@ var T = {
   "t-impulso":   {es:"Tira de impulso", en:"Impulse strip", fr:"Bande d'achat d'impulsion"},
   "t-facade":    {es:"Rotulación de fachada", en:"Storefront signage", fr:"Signalétique de façade"},
   "t-ebeamstand":{es:"eBeam — stand de feria", en:"eBeam — trade show booth", fr:"eBeam — stand de salon"},
+  "t-bvs":       {es:"Batman v Superman — conferencia de prensa", en:"Batman v Superman — press conference", fr:"Batman v Superman — conférence de presse"},
   "t-stand":     {es:"Stand publicitario", en:"Promotional booth", fr:"Stand promotionnel"},
   "t-french":    {es:"App para aprender francés", en:"French learning app", fr:"App pour apprendre le français"},
   "d-me310":     {es:"Design Thinking Innovation Program, en colaboración con Stanford. 2009–2010.", en:"Design Thinking Innovation Program, in collaboration with Stanford. 2009–2010.", fr:"Programme d'innovation en Design Thinking, en collaboration avec Stanford. 2009–2010."}
