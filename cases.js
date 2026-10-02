@@ -406,7 +406,7 @@ var CASES = [
       "sub": "Tres stands, tres contextos: expo industrial, centro comercial y Comic Con",
       "challenge": "Un stand tiene que comunicar una marca en pocos metros cuadrados, montarse en horas y viajar en piezas. Tres encargos lo pusieron a prueba en contextos muy distintos: PICSA, distribuidor de bombas industriales Pentair, en una expo técnica; Renault, que lanzaba la Duster junto con Frozen de Disney en un centro comercial; y Marvel, con el stand de Capitán América: Civil War en La Mole Comic Con.",
       "process": "Para PICSA diseñé un cubo volado de 6.10 m sobre una columna inclinada que exhibe las bombas en la base, documentado con planos de tarima, bastidores y copete volado; en 2016 una segunda versión en marco abierto. Para Renault, una plataforma que integra el auto real con muros temáticos y un área de atención. Para Marvel, un recorrido con escenografía de los dos bandos, réplicas de personajes y pantallas.",
-      "result": "Stands resueltos de la idea a la fabricación con renders y planos acotados; el de PICSA se repitió en dos ediciones de la expo.",
+      "result": "Stands resueltos de la idea a la fabricación con renders y planos acotados; PICSA me volvió a encargar el stand al año siguiente, así que lo diseñé para dos ediciones consecutivas de la expo (2015 y 2016).",
       "role": "Diseñador creativo · Boser Producciones, Ciudad de México · 2014–2016"
     },
     "en": {
@@ -414,7 +414,7 @@ var CASES = [
       "sub": "Three stands, three contexts: industrial expo, shopping mall and Comic Con",
       "challenge": "A stand has to communicate a brand in a few square metres, go up in hours and travel in pieces. Three briefs put that to the test in very different settings: PICSA, a distributor of Pentair industrial pumps, at a technical expo; Renault, launching the Duster alongside Disney's Frozen in a shopping mall; and Marvel, with the Captain America: Civil War stand at La Mole Comic Con.",
       "process": "For PICSA I designed a 6.10 m cantilevered cube on a tilted column that displays the pumps at its base, documented with drawings for the platform, frames and cantilevered header; in 2016 a second, open-frame version. For Renault, a platform integrating the real car with themed walls and a service area. For Marvel, a walkthrough with scenery for both sides, character replicas and screens.",
-      "result": "Stands taken from idea to fabrication with renders and dimensioned drawings; the PICSA stand was reused for two editions of the expo.",
+      "result": "Stands taken from idea to fabrication with renders and dimensioned drawings; PICSA brought me back the following year, so I designed its stand for two consecutive editions of the expo (2015 and 2016).",
       "role": "Creative designer · Boser Producciones, Mexico City · 2014–2016"
     },
     "fr": {
@@ -422,7 +422,7 @@ var CASES = [
       "sub": "Trois stands, trois contextes : salon industriel, centre commercial et Comic Con",
       "challenge": "Un stand doit communiquer une marque sur quelques mètres carrés, se monter en quelques heures et voyager en pièces détachées. Trois projets l'ont mis à l'épreuve dans des contextes très différents : PICSA, distributeur de pompes industrielles Pentair, sur un salon technique ; Renault, qui lançait le Duster avec La Reine des neiges de Disney dans un centre commercial ; et Marvel, avec le stand Captain America : Civil War à La Mole Comic Con.",
       "process": "Pour PICSA, j'ai conçu un cube en porte-à-faux de 6,10 m sur une colonne inclinée qui expose les pompes à sa base, documenté par des plans de l'estrade, des châssis et du bandeau en porte-à-faux ; en 2016, une seconde version à cadre ouvert. Pour Renault, une plateforme intégrant le vrai véhicule avec des murs thématiques et un espace d'accueil. Pour Marvel, un parcours scénographié des deux camps, avec répliques de personnages et écrans.",
-      "result": "Des stands menés de l'idée à la fabrication avec rendus et plans cotés ; celui de PICSA a été réutilisé sur deux éditions du salon.",
+      "result": "Des stands menés de l'idée à la fabrication avec rendus et plans cotés ; PICSA m'a confié à nouveau son stand l'année suivante : je l'ai conçu pour deux éditions consécutives du salon (2015 et 2016).",
       "role": "Designer créatif · Boser Producciones, Mexico · 2014–2016"
     }
   },
@@ -486,6 +486,192 @@ var CASES = [
       "process": "J'ai conçu les parcours et l'habillage d'avant-premières comme Cendrillon (tapis bleu à Antara et le Bal royal au Westin Santa Fe), Le Livre de la jungle à Plaza Universidad, Le Royaume des singes au Teatro Ocampo de Cuernavaca, Very Bad Dads, Descendants et Soy Luna : plans de parcours, façades, murs végétaux, décors et photocalls adaptés à chaque lieu.",
       "result": "Plus de dix avant-premières menées avec la même méthode : lire le lieu, organiser les flux et construire l'expérience avec des éléments installables en une nuit.",
       "role": "Designer créatif · Boser Producciones, Mexico · 2014–2016"
+    }
+  },
+  {
+    "slug": "glade",
+    "count": 14,
+    "brand": "SC Johnson · Glade",
+    "cat": "pos",
+    "dir": "pos",
+    "es": {
+      "title": "Glade — góndola navideña y exhibidores de temporada",
+      "sub": "Revestimientos, free standings y tiras de impulso, del render a la tienda",
+      "challenge": "Glade concentra sus ventas en temporadas como Navidad, cuando compite por atención en pasillos saturados de autoservicios y farmacias. Necesitaba una góndola temática que se armara sobre el mobiliario existente de cada cadena y una serie de exhibidores secundarios para sus nuevas fragancias.",
+      "process": "Diseñé el revestimiento de góndola en foam board de 5 mm con impresión metalizada y lo adapté en tres planogramas para Farmacias Benavides. Para el lanzamiento de fragancias desarrollé un free standing con ganchos para blister y charolas —11 piezas por gancho y 18 o 24 por charola—, un display modular giratorio de alambrón, soleras y estireno calibre 40, una tira de impulso de polipropileno con suaje y un portador de lengüeta, cada uno con sus vistas y dimensiones.",
+      "result": "La góndola navideña se produjo e instaló en tienda, y los exhibidores de fragancias quedaron documentados con capacidades y medidas para producción.",
+      "role": "Diseñador industrial · Master Printing Group (MPG), Ciudad de México · 2012–2013"
+    },
+    "en": {
+      "title": "Glade — Christmas gondola and seasonal displays",
+      "sub": "Gondola dressing, free-standing units and impulse strips, from render to store",
+      "challenge": "Glade concentrates its sales in seasons such as Christmas, when it competes for attention in crowded supermarket and pharmacy aisles. It needed a themed gondola that could be built over each chain's existing fixtures, plus a series of secondary displays for its new fragrances.",
+      "process": "I designed the gondola dressing in 5 mm foam board with metallic printing and adapted it into three planograms for Farmacias Benavides. For the fragrance launch I developed a free-standing unit with blister hooks and trays —11 units per hook and 18 or 24 per tray—, a rotating modular display in steel wire, flat bar and 40-gauge styrene, a die-cut polypropylene impulse strip and a shelf-talker holder, each with views and dimensions.",
+      "result": "The Christmas gondola was produced and installed in store, and the fragrance displays were documented with capacities and dimensions for production.",
+      "role": "Industrial designer · Master Printing Group (MPG), Mexico City · 2012–2013"
+    },
+    "fr": {
+      "title": "Glade — gondole de Noël et présentoirs saisonniers",
+      "sub": "Habillages, présentoirs autoportants et bandes d'impulsion, du rendu au magasin",
+      "challenge": "Glade réalise une grande partie de ses ventes sur des saisons comme Noël, où elle doit capter l'attention dans des rayons saturés de supermarchés et de pharmacies. Il lui fallait une gondole thématique montée sur le mobilier existant de chaque enseigne, ainsi qu'une série de présentoirs secondaires pour ses nouveaux parfums.",
+      "process": "J'ai conçu l'habillage de gondole en foam board de 5 mm avec impression métallisée et l'ai décliné en trois planogrammes pour Farmacias Benavides. Pour le lancement des parfums, j'ai développé un présentoir autoportant avec crochets pour blisters et tablettes —11 pièces par crochet, 18 ou 24 par tablette—, un présentoir modulaire rotatif en fil d'acier, plats métalliques et styrène calibre 40, une bande d'impulsion en polypropylène découpé et un porte-étiquette, chacun avec ses vues et cotes.",
+      "result": "La gondole de Noël a été produite et installée en magasin, et les présentoirs parfums ont été documentés avec leurs capacités et cotes pour la production.",
+      "role": "Designer industriel · Master Printing Group (MPG), Mexico · 2012–2013"
+    }
+  },
+  {
+    "slug": "scjohnson",
+    "count": 16,
+    "brand": "SC Johnson · Raid · OFF! · Mr. Músculo · Ziploc",
+    "cat": "pos",
+    "dir": "pos",
+    "es": {
+      "title": "Raid, OFF!, Mr. Músculo y Ziploc — familia de exhibidores",
+      "sub": "Un material distinto para cada punto de venta: cartón, coroplast, PVC, termoformado y metal",
+      "challenge": "SC Johnson necesitaba exhibición adicional para varias marcas a la vez, en formatos muy distintos: desde una charola de mostrador hasta muebles de piso y extensiones de anaquel. Cada pieza tenía que proteger el producto, cargar su peso, ensamblarse fácil en tienda y mantener un costo por unidad razonable para producirse en volumen.",
+      "process": "Elegí el material según la función y la vida útil de cada pieza: charola OFF! en cartón corrugado con suaje (24.5 × 33 × 9 cm); shelf extension de alambrón sujeto a góndola con abrazaderas (23 × 25 × 7.2 cm); torre giratoria con estructura de PTR de 3/4\", lámina calibre 18 y gráficos en estireno; minibotadero Raid en coroplast de 4 mm (70 × 50 × 101 cm) y un dispensador termoformado; botadero Mr. Músculo en corrugado con cenefa de PET y copete configurable (60 × 60 × 130 cm); dispensador en PVC espumado de 3 mm para 16 unidades, y tira de polipropileno con suaje para Ziploc. Cada propuesta incluyó planos de desarrollo y vistas generales para producción.",
+      "result": "Más de quince exhibidores para cuatro marcas de un mismo cliente, documentados para producción y con prototipos físicos para validar ensamble y capacidad.",
+      "role": "Diseñador industrial · Master Printing Group (MPG), Ciudad de México · 2012–2013"
+    },
+    "en": {
+      "title": "Raid, OFF!, Mr. Músculo and Ziploc — a family of displays",
+      "sub": "A different material for each point of sale: board, corrugated plastic, PVC, thermoformed and metal",
+      "challenge": "SC Johnson needed secondary displays for several brands at once, in very different formats: from a counter tray to floor units and shelf extensions. Each piece had to protect the product, carry its weight, assemble easily in store and keep a reasonable unit cost for volume production.",
+      "process": "I chose the material according to each piece's function and lifespan: an OFF! tray in die-cut corrugated board (24.5 × 33 × 9 cm); a wire shelf extension clamped to the gondola (23 × 25 × 7.2 cm); a rotating tower with a 3/4\" square-tube frame, 18-gauge sheet and styrene graphics; a Raid mini dump bin in 4 mm corrugated plastic (70 × 50 × 101 cm) and a thermoformed dispenser; a Mr. Músculo dump bin in corrugated board with a PET header strip and configurable topper (60 × 60 × 130 cm); a 3 mm foamed PVC dispenser for 16 units, and a die-cut polypropylene strip for Ziploc. Every proposal came with flat-pattern drawings and general views for production.",
+      "result": "More than fifteen displays for four brands of the same client, documented for production, with physical prototypes to validate assembly and capacity.",
+      "role": "Industrial designer · Master Printing Group (MPG), Mexico City · 2012–2013"
+    },
+    "fr": {
+      "title": "Raid, OFF!, Mr. Músculo et Ziploc — une famille de présentoirs",
+      "sub": "Un matériau pour chaque point de vente : carton, plastique alvéolaire, PVC, thermoformage et métal",
+      "challenge": "SC Johnson avait besoin de présentoirs secondaires pour plusieurs marques à la fois, dans des formats très différents : du plateau de comptoir aux meubles au sol et aux extensions de linéaire. Chaque pièce devait protéger le produit, supporter son poids, se monter facilement en magasin et garder un coût unitaire raisonnable pour une production en volume.",
+      "process": "J'ai choisi le matériau selon la fonction et la durée de vie de chaque pièce : plateau OFF! en carton ondulé découpé (24,5 × 33 × 9 cm) ; extension de linéaire en fil d'acier fixée à la gondole par colliers (23 × 25 × 7,2 cm) ; tour rotative avec structure en tube carré de 3/4\", tôle calibre 18 et graphismes en styrène ; mini-box Raid en plastique alvéolaire de 4 mm (70 × 50 × 101 cm) et un distributeur thermoformé ; box Mr. Músculo en carton ondulé avec bandeau PET et fronton modulable (60 × 60 × 130 cm) ; distributeur en PVC expansé de 3 mm pour 16 unités, et bande en polypropylène découpé pour Ziploc. Chaque proposition comprenait plans de développement et vues générales pour la production.",
+      "result": "Plus de quinze présentoirs pour quatre marques d'un même client, documentés pour la production, avec des prototypes physiques pour vérifier le montage et la capacité.",
+      "role": "Designer industriel · Master Printing Group (MPG), Mexico · 2012–2013"
+    }
+  },
+  {
+    "slug": "aoc",
+    "count": 10,
+    "brand": "AOC",
+    "cat": "pos",
+    "dir": "pos",
+    "es": {
+      "title": "AOC Breeze — exhibidor de mostrador para tablets",
+      "sub": "De la propuesta a la maqueta física, en PVC espumado",
+      "challenge": "AOC lanzaba su tablet Breeze en tiendas departamentales y de electrónica, donde el espacio en mostrador es mínimo. Necesitaba un exhibidor que mostrara una unidad de muestra, guardara inventario a la vista y se armara con piezas planas fáciles de enviar.",
+      "process": "Desarrollé varias propuestas y, sobre la elegida, un exhibidor en PVC espumado de 3 mm de 29.2 × 45 × 33.2 cm con capacidad para cuatro cajas y una unidad de muestra. Dibujé el plano explosivo y el desarrollo de cada pieza para corte y ensamble, y revisé el ajuste con dummies impresos de las cajas a escala real.",
+      "result": "Un exhibidor validado con maquetas físicas y documentado para fabricación en serie, con piezas planas que se envían y ensamblan en tienda.",
+      "role": "Diseñador industrial · Master Printing Group (MPG), Ciudad de México · 2012–2013"
+    },
+    "en": {
+      "title": "AOC Breeze — counter display for tablets",
+      "sub": "From proposal to physical mock-up, in foamed PVC",
+      "challenge": "AOC was launching its Breeze tablet in department and electronics stores, where counter space is minimal. It needed a display that showed a demo unit, kept stock in sight and was built from flat parts that were easy to ship.",
+      "process": "I developed several proposals and, for the chosen one, a 3 mm foamed PVC display measuring 29.2 × 45 × 33.2 cm that holds four boxes plus a demo unit. I drew the exploded view and the flat pattern of each part for cutting and assembly, and checked the fit with full-scale printed box dummies.",
+      "result": "A display validated with physical mock-ups and documented for series production, with flat parts that ship flat and assemble in store.",
+      "role": "Industrial designer · Master Printing Group (MPG), Mexico City · 2012–2013"
+    },
+    "fr": {
+      "title": "AOC Breeze — présentoir de comptoir pour tablettes",
+      "sub": "De la proposition à la maquette physique, en PVC expansé",
+      "challenge": "AOC lançait sa tablette Breeze dans les grands magasins et les enseignes d'électronique, où la place en comptoir est réduite. Il fallait un présentoir qui montre une unité de démonstration, garde le stock en vue et soit fait de pièces plates faciles à expédier.",
+      "process": "J'ai développé plusieurs propositions puis, pour celle retenue, un présentoir en PVC expansé de 3 mm de 29,2 × 45 × 33,2 cm, pour quatre boîtes et une unité de démonstration. J'ai dessiné la vue éclatée et le développé de chaque pièce pour la découpe et l'assemblage, et j'ai vérifié l'ajustement avec des maquettes imprimées des boîtes à l'échelle 1.",
+      "result": "Un présentoir validé par des maquettes physiques et documenté pour la fabrication en série, avec des pièces plates expédiées à plat et montées en magasin.",
+      "role": "Designer industriel · Master Printing Group (MPG), Mexico · 2012–2013"
+    }
+  },
+  {
+    "slug": "piso",
+    "count": 5,
+    "brand": "PepsiCo · Gatorade · Maxi Klin",
+    "cat": "pos",
+    "dir": "pos",
+    "es": {
+      "title": "Islas refrigeradas y revestimientos de pallet",
+      "sub": "Exhibición de piso que integra refrigeración, estructura y gráficos",
+      "challenge": "En autoservicio, las islas y los pallets son los puntos de mayor venta por impulso. Gatorade y Pepsi querían islas que vendieran producto frío y al tiempo en el mismo mueble, integrando refrigeradores comerciales; Maxi Klin buscaba convertir un pallet estándar en un exhibidor de marca sin cambiar la logística.",
+      "process": "Para Gatorade diseñé una isla que integra dos refrigeradores CFX-08LV en un mobiliario a la medida (2.10 × 1.15 × 1.69 m). Para Pepsi, una isla con dos refrigeradores CFX-19 LV y cuatro góndolas metálicas, con gráficos en coroplast de impresión directa (1.65 × 1.47 × 2.26 m). Para Maxi Klin, un faldón y copete en coroplast de 4 mm con suaje que viste un pallet de 120 × 120 × 95 cm.",
+      "result": "Soluciones de piso resueltas alrededor de equipos y medidas estándar —refrigeradores y pallets—, lo que simplifica la producción y la instalación en tienda.",
+      "role": "Diseñador industrial · Master Printing Group (MPG), Ciudad de México · 2012–2013"
+    },
+    "en": {
+      "title": "Refrigerated islands and pallet wraps",
+      "sub": "Floor displays that integrate refrigeration, structure and graphics",
+      "challenge": "In supermarkets, islands and pallets are the top impulse-sales spots. Gatorade and Pepsi wanted islands selling chilled and ambient product in the same unit, built around commercial refrigerators; Maxi Klin wanted to turn a standard pallet into a branded display without changing logistics.",
+      "process": "For Gatorade I designed an island that integrates two CFX-08LV refrigerators into custom furniture (2.10 × 1.15 × 1.69 m). For Pepsi, an island with two CFX-19 LV refrigerators and four metal gondolas, with directly printed corrugated-plastic graphics (1.65 × 1.47 × 2.26 m). For Maxi Klin, a die-cut 4 mm corrugated-plastic skirt and topper that dresses a 120 × 120 × 95 cm pallet.",
+      "result": "Floor solutions built around standard equipment and dimensions —refrigerators and pallets—, which simplifies production and in-store installation.",
+      "role": "Industrial designer · Master Printing Group (MPG), Mexico City · 2012–2013"
+    },
+    "fr": {
+      "title": "Îlots réfrigérés et habillages de palette",
+      "sub": "Présentoirs au sol intégrant froid, structure et graphismes",
+      "challenge": "En grande surface, les îlots et les palettes sont les emplacements les plus performants pour l'achat d'impulsion. Gatorade et Pepsi voulaient des îlots vendant produit frais et à température ambiante dans un même meuble, autour de réfrigérateurs commerciaux ; Maxi Klin voulait transformer une palette standard en présentoir de marque sans modifier la logistique.",
+      "process": "Pour Gatorade, j'ai conçu un îlot intégrant deux réfrigérateurs CFX-08LV dans un mobilier sur mesure (2,10 × 1,15 × 1,69 m). Pour Pepsi, un îlot avec deux réfrigérateurs CFX-19 LV et quatre gondoles métalliques, graphismes en plastique alvéolaire imprimé en direct (1,65 × 1,47 × 2,26 m). Pour Maxi Klin, une jupe et un fronton en plastique alvéolaire de 4 mm découpé qui habillent une palette de 120 × 120 × 95 cm.",
+      "result": "Des solutions au sol conçues autour d'équipements et de dimensions standard —réfrigérateurs et palettes—, ce qui simplifie la production et l'installation en magasin.",
+      "role": "Designer industriel · Master Printing Group (MPG), Mexico · 2012–2013"
+    }
+  },
+  {
+    "slug": "mattel",
+    "count": 6,
+    "brand": "Mattel · Hot Wheels · Barbie",
+    "cat": "pos",
+    "dir": "pos",
+    "es": {
+      "title": "Mattel — mesa de demostración y temporada de juguetes",
+      "sub": "Hot Wheels RC, espectaculares de bodega y photo opportunity Barbie",
+      "challenge": "En temporada de juguetes, Mattel necesitaba que los niños probaran el producto en tienda y que sus marcas dominaran las bodegas de temporada. El reto combinaba un mueble interactivo resistente al uso intenso con gráficos de gran formato que se instalaran rápido.",
+      "process": "Diseñé la mesa 2 en 1 para demostrar pistas y autos de radio control Hot Wheels, con un mecanismo que la transforma entre ambos modos de juego. Para las bodegas de temporada desarrollé espectaculares de Hot Wheels, Barbie y Max Steel en coroplast de 1 cm, despiezados en láminas estándar de 1.22 × 2.44 m para imprimir y montar sin desperdicio, y un photo opportunity con forma de empaque Barbie.",
+      "result": "Un sistema de temporada que unió demostración de producto y presencia de marca, resuelto con materiales y formatos estándar de producción.",
+      "role": "Diseñador industrial · Master Printing Group (MPG), Ciudad de México · 2012–2013"
+    },
+    "en": {
+      "title": "Mattel — demo table and toy season",
+      "sub": "Hot Wheels RC, seasonal store graphics and a Barbie photo opportunity",
+      "challenge": "During toy season, Mattel needed children to try the product in store and its brands to dominate the seasonal toy areas. The brief combined an interactive unit tough enough for heavy use with large-format graphics that could be installed quickly.",
+      "process": "I designed the 2-in-1 table to demo Hot Wheels tracks and radio-control cars, with a mechanism that converts it between both play modes. For the seasonal areas I developed large Hot Wheels, Barbie and Max Steel graphics in 1 cm corrugated plastic, nested into standard 1.22 × 2.44 m sheets to print and mount without waste, plus a photo opportunity shaped like a Barbie package.",
+      "result": "A seasonal system that combined product demonstration and brand presence, built with standard production materials and formats.",
+      "role": "Industrial designer · Master Printing Group (MPG), Mexico City · 2012–2013"
+    },
+    "fr": {
+      "title": "Mattel — table de démonstration et saison du jouet",
+      "sub": "Hot Wheels RC, grands visuels de saison et photocall Barbie",
+      "challenge": "Pendant la saison des jouets, Mattel voulait que les enfants essaient les produits en magasin et que ses marques dominent les espaces saisonniers. Le défi associait un meuble interactif résistant à un usage intensif et des visuels grand format rapides à installer.",
+      "process": "J'ai conçu la table 2 en 1 pour la démonstration des circuits et voitures radiocommandées Hot Wheels, avec un mécanisme qui la fait passer d'un mode de jeu à l'autre. Pour les espaces saisonniers, j'ai développé de grands visuels Hot Wheels, Barbie et Max Steel en plastique alvéolaire de 1 cm, calepinés sur des plaques standard de 1,22 × 2,44 m pour imprimer et monter sans chute, ainsi qu'un photocall en forme d'emballage Barbie.",
+      "result": "Un dispositif saisonnier alliant démonstration produit et présence de marque, réalisé avec des matériaux et formats de production standard.",
+      "role": "Designer industriel · Master Printing Group (MPG), Mexico · 2012–2013"
+    }
+  },
+  {
+    "slug": "carton",
+    "count": 13,
+    "brand": "Levi's · Miller · Danone · Kleenex · Sonrics · Bayer",
+    "cat": "pos",
+    "dir": "pos",
+    "es": {
+      "title": "Exhibidores de cartón y plástico — del suaje al anaquel",
+      "sub": "Desarrollos planos, suajes y prototipos para producción en volumen",
+      "challenge": "La mayoría del material POP se fabrica plano: se imprime, se suaja, se dobla y se arma en tienda. Un buen diseño se decide en el desarrollo —cómo se acomodan las piezas en el pliego, dónde van los dobleces y cuánto carga cada pestaña— más que en el render.",
+      "process": "Resolví desarrollos y suajes para distintos clientes: una urna promocional para Levi's en corrugado de 3 mm, piezas promocionales para Miller, una charola Danone de alambre de 3 mm y estireno calibre 60 para 15 piezas, un exhibidor modular de check out para Kleenex con estructura de PTR de 1/2\" y gráficos en estireno (120 × 40 × 40 cm), tiras de impulso Sonrics en microcorrugado con caple empalmado y una tira Bayer, además de dispensadores y soportes de copete con sus planos. Varias piezas se validaron con prototipo antes de producción.",
+      "result": "Un repertorio de soluciones de cartón, plástico y alambre pensadas para fabricarse en volumen, con un criterio de diseño muy cercano al del empaque.",
+      "role": "Diseñador industrial · Master Printing Group (MPG), Ciudad de México · 2012–2013"
+    },
+    "en": {
+      "title": "Board and plastic displays — from die line to shelf",
+      "sub": "Flat patterns, die lines and prototypes for volume production",
+      "challenge": "Most POP material is made flat: printed, die-cut, folded and assembled in store. A good design is decided in the flat pattern —how parts nest on the sheet, where the folds go and how much load each tab carries— more than in the render.",
+      "process": "I worked out flat patterns and die lines for several clients: a promotional ballot box for Levi's in 3 mm corrugated board, promotional pieces for Miller, a Danone tray in 3 mm wire and 60-gauge styrene for 15 units, a modular checkout display for Kleenex with a 1/2\" square-tube frame and styrene graphics (120 × 40 × 40 cm), Sonrics impulse strips in micro-flute laminated to folding board and a Bayer strip, plus dispensers and header supports with their drawings. Several pieces were validated with a prototype before production.",
+      "result": "A repertoire of board, plastic and wire solutions designed for volume manufacturing, with design criteria very close to packaging.",
+      "role": "Industrial designer · Master Printing Group (MPG), Mexico City · 2012–2013"
+    },
+    "fr": {
+      "title": "Présentoirs carton et plastique — de la forme de découpe au linéaire",
+      "sub": "Développés, formes de découpe et prototypes pour une production en volume",
+      "challenge": "La plupart du matériel PLV est fabriqué à plat : imprimé, découpé, plié puis monté en magasin. Un bon design se joue dans le développé —l'imbrication des pièces sur la feuille, l'emplacement des plis, la charge de chaque patte— plus que dans le rendu.",
+      "process": "J'ai réalisé développés et formes de découpe pour plusieurs clients : une urne promotionnelle Levi's en carton ondulé de 3 mm, des pièces promotionnelles pour Miller, un plateau Danone en fil de 3 mm et styrène calibre 60 pour 15 pièces, un présentoir modulaire de caisse pour Kleenex avec structure en tube carré de 1/2\" et graphismes en styrène (120 × 40 × 40 cm), des bandes d'impulsion Sonrics en micro-cannelure contrecollée sur carton compact et une bande Bayer, ainsi que des distributeurs et supports de fronton avec leurs plans. Plusieurs pièces ont été validées par un prototype avant production.",
+      "result": "Un répertoire de solutions en carton, plastique et fil conçues pour une fabrication en volume, avec des critères de conception très proches de l'emballage.",
+      "role": "Designer industriel · Master Printing Group (MPG), Mexico · 2012–2013"
     }
   }
 ];
