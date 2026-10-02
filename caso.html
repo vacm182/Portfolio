@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vic — Packaging</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="back" id="back" href="index.html" data-t="back">← volver al portafolio</a>
+    <nav class="lang"><button data-lang="es">ES</button><button data-lang="en">EN</button><button data-lang="fr">FR</button></nav>
+  </header>
+
+  <div class="case-head">
+    <p class="brand" id="brand"></p>
+    <h1 id="title"></h1>
+    <p class="sub" id="sub"></p>
+  </div>
+
+  <img class="hero" id="hero" alt="">
+
+  <div class="meta">
+    <div><span data-t="client">Cliente</span><b id="client"></b></div>
+    <div><span data-t="role_lbl">Rol</span><b data-t="role_val"></b></div>
+  </div>
+
+  <section class="block"><h2 data-t="challenge">Reto</h2><p id="challenge"></p></section>
+  <section class="block"><h2 data-t="process">Proceso</h2><p id="process"></p></section>
+  <section class="block"><h2 data-t="result">Resultado</h2><p id="result"></p></section>
+
+  <div class="gallery" id="gallery"></div>
+
+  <nav class="case-nav">
+    <a id="prev"></a>
+    <a id="next" style="text-align:right"></a>
+  </nav>
+
+  <footer><p data-t="footer">Vic — diseño industrial</p></footer>
+</div>
+
+<script src="cases.js"></script>
+<script>
+var slug = new URLSearchParams(location.search).get('c') || CASES[0].slug;
+var i = CASES.findIndex(function(c){ return c.slug === slug; });
+if (i < 0) i = 0;
+var C = CASES[i];
+function img(n){ return 'images/packaging/' + C.slug + '-' + (n < 10 ? '0' : '') + n + '.jpg'; }
+
+document.getElementById('hero').src = img(1);
+var g = document.getElementById('gallery');
+for (var n = 2; n <= C.count; n++){
+  var a = document.createElement('a'); a.href = img(n); a.target = '_blank';
+  var im = document.createElement('img'); im.src = img(n); im.loading = 'lazy'; im.alt = '';
+  a.appendChild(im); g.appendChild(a);
+}
+document.getElementById('brand').textContent = C.brand;
+document.getElementById('client').textContent = C.brand;
+
+window.onLang = function(l){
+  var t = C[l];
+  document.title = t.title + ' — Vic';
+  ['title','sub','challenge','process','result'].forEach(function(k){
+    var map = {title:'title', sub:'sub', challenge:'challenge', process:'process', result:'result'};
+    document.getElementById(k).textContent = t[map[k]];
+  });
+  document.getElementById('hero').alt = t.title;
+  document.getElementById('back').href = 'index.html?lang=' + l;
+  var P = CASES[(i - 1 + CASES.length) % CASES.length], N = CASES[(i + 1) % CASES.length];
+  var pa = document.getElementById('prev'), na = document.getElementById('next');
+  pa.href = 'caso.html?c=' + P.slug + '&lang=' + l;
+  na.href = 'caso.html?c=' + N.slug + '&lang=' + l;
+  pa.innerHTML = '<small>' + T.prev[l] + '</small>' + P[l].title;
+  na.innerHTML = '<small>' + T.next[l] + '</small>' + N[l].title;
+};
+</script>
+<script src="i18n.js"></script>
+</body>
+</html>

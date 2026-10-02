@@ -3,387 +3,352 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vic — Diseño industrial</title>
+<title>Vic — Industrial design · Packaging engineering</title>
+<meta name="description" content="Victor Castro Medina — Packaging Engineer & industrial designer based in Paris. PET/rPET beverage packaging, hardware and point-of-sale design.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --paper:#F7F2E9;
-    --ink:#1C1C1A;
-    --steel:#83837A;
-    --line:#DEDED4;
-    --signal:#C85A28;
-  }
-  *{box-sizing:border-box;}
-  body{
-    margin:0;
-    background:var(--paper);
-    color:var(--ink);
-    font-family:'IBM Plex Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
-    -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:1040px;margin:0 auto;padding:3.5rem 1.5rem 6rem;}
-
-  header{margin-bottom:2.75rem;}
-  header .name{font-size:1.6rem;font-weight:600;margin:0;letter-spacing:-.01em;}
-  header .role{font-size:.95rem;color:var(--steel);margin:.3rem 0 0;font-weight:400;}
-
-  .pills{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:2.75rem;}
-  .pill{
-    font-family:'IBM Plex Mono',monospace;
-    font-size:.72rem;
-    padding:.45rem .9rem;
-    border:1px solid var(--line);
-    border-radius:999px;
-    background:none;
-    color:var(--steel);
-    cursor:pointer;
-    transition:border-color .15s ease;
-  }
-  .pill:hover{border-color:var(--steel);}
-  .pill.active{background:var(--ink);border-color:var(--ink);color:var(--paper);}
-
-  .grid{column-count:3;column-gap:1.75rem;}
-  @media (max-width:900px){.grid{column-count:2;}}
-  @media (max-width:600px){.grid{column-count:1;}}
-
-  .card{break-inside:avoid;margin-bottom:2.5rem;}
-  .card img{width:100%;display:block;border-radius:3px;}
-
-  .placeholder{
-    border:1px dashed var(--line);
-    border-radius:3px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-  }
-  .placeholder span{font-family:'IBM Plex Mono',monospace;font-size:.68rem;color:var(--steel);}
-
-  .caption{border-top:1px solid var(--line);margin-top:.7rem;padding-top:.55rem;}
-  .caption .title{font-size:.95rem;font-weight:500;margin:0;}
-  .caption .cat{font-family:'IBM Plex Mono',monospace;font-size:.68rem;color:var(--signal);margin:.25rem 0 0;}
-  .caption .desc{font-size:.8rem;color:var(--steel);margin:.4rem 0 0;line-height:1.4;}
-
-  .about{max-width:640px;margin-bottom:2.5rem;padding-bottom:2.25rem;border-bottom:1px solid var(--line);}
-  .about p{font-size:.95rem;line-height:1.55;margin:0 0 .9rem;}
-  .about .tags{font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--steel);margin:0 0 .6rem;}
-  .about .contact{font-family:'IBM Plex Mono',monospace;font-size:.75rem;}
-  .about .contact a{color:var(--ink);}
-
-  .more{border:1px dashed var(--line);border-radius:3px;min-height:100px;display:flex;align-items:center;justify-content:center;}
-  .more span{font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--steel);}
-
-  footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line);}
-  footer p{font-family:'IBM Plex Mono',monospace;font-size:.7rem;color:var(--steel);margin:0;}
-  footer a{color:var(--steel);}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="wrap">
   <header>
-    <p class="name">Vic</p>
-    <p class="role">Diseño industrial</p>
+    <div>
+      <p class="name">Vic</p>
+      <p class="role" data-t="role">Diseño industrial · Ingeniería de empaque</p>
+    </div>
+    <nav class="lang"><button data-lang="es">ES</button><button data-lang="en">EN</button><button data-lang="fr">FR</button></nav>
   </header>
 
   <div class="about">
-    <p>Ingeniero de empaque (Packaging Engineer) con base en París — 9 años desarrollando packaging PET/rPET para bebidas en Envases Universales, con raíces en diseño industrial de producto que incluyen hardware electrónico, punto de venta y diseño de eventos.</p>
+    <p data-t="bio"></p>
     <p class="tags">pet/rpet · blow molding · solidworks · keyshot · lightweighting</p>
     <p class="contact"><a href="https://www.linkedin.com/in/victor-a-castro-medina" target="_blank" rel="noopener">linkedin.com/in/victor-a-castro-medina</a> · <a href="mailto:vacm182@hotmail.com">vacm182@hotmail.com</a></p>
   </div>
 
   <div class="pills">
-    <button class="pill active" data-cat="todo">todo</button>
-    <button class="pill" data-cat="hardware">hardware</button>
-    <button class="pill" data-cat="escolares">escolares</button>
-    <button class="pill" data-cat="pos">punto de venta</button>
-    <button class="pill" data-cat="eventos">eventos</button>
-    <button class="pill" data-cat="packaging">packaging</button>
-    <button class="pill" data-cat="ux">ux / digital</button>
+    <button class="pill active" data-cat="todo" data-t="all">todo</button>
+    <button class="pill" data-cat="packaging" data-t="packaging">packaging</button>
+    <button class="pill" data-cat="hardware" data-t="hardware">hardware</button>
+    <button class="pill" data-cat="pos" data-t="pos">punto de venta</button>
+    <button class="pill" data-cat="eventos" data-t="eventos">eventos</button>
+    <button class="pill" data-cat="ux" data-t="ux">ux / digital</button>
+    <button class="pill" data-cat="escolares" data-t="escolares">escolares</button>
   </div>
 
   <div class="grid" id="grid">
+    <a class="card case" data-cat="packaging" data-case="maggi" href="caso.html?c=maggi">
+      <img src="images/packaging/maggi-01.jpg" alt="" loading="lazy">
+      <div class="caption">
+        <p class="title"></p>
+        <p class="cat" data-t="packaging">packaging</p>
+        <p class="desc"></p>
+        <p class="more-link" data-t="see">ver caso →</p>
+      </div>
+    </a>
+    <a class="card case" data-cat="packaging" data-case="waterpeople" href="caso.html?c=waterpeople">
+      <img src="images/packaging/waterpeople-01.jpg" alt="" loading="lazy">
+      <div class="caption">
+        <p class="title"></p>
+        <p class="cat" data-t="packaging">packaging</p>
+        <p class="desc"></p>
+        <p class="more-link" data-t="see">ver caso →</p>
+      </div>
+    </a>
+    <a class="card case" data-cat="packaging" data-case="coronado" href="caso.html?c=coronado">
+      <img src="images/packaging/coronado-01.jpg" alt="" loading="lazy">
+      <div class="caption">
+        <p class="title"></p>
+        <p class="cat" data-t="packaging">packaging</p>
+        <p class="desc"></p>
+        <p class="more-link" data-t="see">ver caso →</p>
+      </div>
+    </a>
+    <a class="card case" data-cat="packaging" data-case="agua" href="caso.html?c=agua">
+      <img src="images/packaging/agua-01.jpg" alt="" loading="lazy">
+      <div class="caption">
+        <p class="title"></p>
+        <p class="cat" data-t="packaging">packaging</p>
+        <p class="desc"></p>
+        <p class="more-link" data-t="see">ver caso →</p>
+      </div>
+    </a>
+    <a class="card case" data-cat="packaging" data-case="deportivas" href="caso.html?c=deportivas">
+      <img src="images/packaging/deportivas-01.jpg" alt="" loading="lazy">
+      <div class="caption">
+        <p class="title"></p>
+        <p class="cat" data-t="packaging">packaging</p>
+        <p class="desc"></p>
+        <p class="more-link" data-t="see">ver caso →</p>
+      </div>
+    </a>
+    <a class="card case" data-cat="packaging" data-case="conagra" href="caso.html?c=conagra">
+      <img src="images/packaging/conagra-01.jpg" alt="" loading="lazy">
+      <div class="caption">
+        <p class="title"></p>
+        <p class="cat" data-t="packaging">packaging</p>
+        <p class="desc"></p>
+        <p class="more-link" data-t="see">ver caso →</p>
+      </div>
+    </a>
+    <a class="card case" data-cat="packaging" data-case="juslab" href="caso.html?c=juslab">
+      <img src="images/packaging/juslab-01.jpg" alt="" loading="lazy">
+      <div class="caption">
+        <p class="title"></p>
+        <p class="cat" data-t="packaging">packaging</p>
+        <p class="desc"></p>
+        <p class="more-link" data-t="see">ver caso →</p>
+      </div>
+    </a>
+    <a class="card case" data-cat="packaging" data-case="molde" href="caso.html?c=molde">
+      <img src="images/packaging/molde-01.jpg" alt="" loading="lazy">
+      <div class="caption">
+        <p class="title"></p>
+        <p class="cat" data-t="packaging">packaging</p>
+        <p class="desc"></p>
+        <p class="more-link" data-t="see">ver caso →</p>
+      </div>
+    </a>
     <div class="card" data-cat="hardware">
-      <img src="images/hardware-barracuda.jpg" alt="Barracuda">
+      <img src="images/hardware-barracuda.jpg" alt="Barracuda" loading="lazy">
       <div class="caption">
         <p class="title">Barracuda</p>
-        <p class="cat">hardware</p>
+        <p class="cat" data-t="hardware">hardware</p>
       </div>
     </div>
-
     <div class="card" data-cat="hardware">
-      <img src="images/hardware-crayola.jpg" alt="Crayola">
+      <img src="images/hardware-crayola.jpg" alt="Crayola" loading="lazy">
       <div class="caption">
         <p class="title">Crayola</p>
-        <p class="cat">hardware</p>
+        <p class="cat" data-t="hardware">hardware</p>
       </div>
     </div>
-
     <div class="card" data-cat="hardware">
-      <img src="images/hardware-tray.jpg" alt="Charola eBeam">
+      <img src="images/hardware-tray.jpg" alt="Charola eBeam" loading="lazy">
       <div class="caption">
-        <p class="title">Charola eBeam</p>
-        <p class="cat">hardware</p>
+        <p class="title" data-t="t-tray">Charola eBeam</p>
+        <p class="cat" data-t="hardware">hardware</p>
       </div>
     </div>
-
     <div class="card" data-cat="hardware">
-      <img src="images/hardware-office-context.jpg" alt="eBeam en oficina">
+      <img src="images/hardware-office-context.jpg" alt="eBeam en oficina" loading="lazy">
       <div class="caption">
-        <p class="title">eBeam en oficina</p>
-        <p class="cat">hardware</p>
+        <p class="title" data-t="t-office">eBeam en oficina</p>
+        <p class="cat" data-t="hardware">hardware</p>
       </div>
     </div>
-
     <div class="card" data-cat="hardware">
-      <img src="images/hardware-capture-bar.jpg" alt="Barra de captura">
+      <img src="images/hardware-capture-bar.jpg" alt="Barra de captura" loading="lazy">
       <div class="caption">
-        <p class="title">Barra de captura</p>
-        <p class="cat">hardware</p>
+        <p class="title" data-t="t-capture">Barra de captura</p>
+        <p class="cat" data-t="hardware">hardware</p>
       </div>
     </div>
-
     <div class="card" data-cat="hardware">
-      <img src="images/hardware-projector.jpg" alt="Proyector de tiro corto">
+      <img src="images/hardware-projector.jpg" alt="Proyector de tiro corto" loading="lazy">
       <div class="caption">
-        <p class="title">Proyector de tiro corto</p>
-        <p class="cat">hardware</p>
+        <p class="title" data-t="t-projector">Proyector de tiro corto</p>
+        <p class="cat" data-t="hardware">hardware</p>
       </div>
     </div>
-
     <div class="card" data-cat="hardware">
-      <img src="images/hardware-polycom.jpg" alt="Polycom">
+      <img src="images/hardware-polycom.jpg" alt="Polycom" loading="lazy">
       <div class="caption">
         <p class="title">Polycom</p>
-        <p class="cat">hardware</p>
+        <p class="cat" data-t="hardware">hardware</p>
       </div>
     </div>
-
     <div class="card" data-cat="hardware">
-      <img src="images/hardware-dome.jpg" alt="Domo sensor">
+      <img src="images/hardware-dome.jpg" alt="Domo sensor" loading="lazy">
       <div class="caption">
-        <p class="title">Domo sensor</p>
-        <p class="cat">hardware</p>
+        <p class="title" data-t="t-dome">Domo sensor</p>
+        <p class="cat" data-t="hardware">hardware</p>
       </div>
     </div>
-
     <div class="card" data-cat="hardware">
-      <img src="images/hardware-dell-rack.jpg" alt="Rack de carga — Dell">
+      <img src="images/hardware-dell-rack.jpg" alt="Rack de carga — Dell" loading="lazy">
       <div class="caption">
-        <p class="title">Rack de carga — Dell</p>
-        <p class="cat">hardware</p>
+        <p class="title" data-t="t-dell">Rack de carga — Dell</p>
+        <p class="cat" data-t="hardware">hardware</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-hotwheels.jpg" alt="Hot Wheels RC — Mesa 2 en 1">
+      <img src="images/pos-hotwheels.jpg" alt="Hot Wheels RC — Mesa 2 en 1" loading="lazy">
       <div class="caption">
-        <p class="title">Hot Wheels RC — Mesa 2 en 1</p>
-        <p class="cat">punto de venta</p>
+        <p class="title" data-t="t-hw1">Hot Wheels RC — Mesa 2 en 1</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-hotwheels-reto.jpg" alt="Hot Wheels Reto">
+      <img src="images/pos-hotwheels-reto.jpg" alt="Hot Wheels Reto" loading="lazy">
       <div class="caption">
-        <p class="title">Hot Wheels Reto</p>
-        <p class="cat">punto de venta</p>
+        <p class="title" data-t="t-hw2">Hot Wheels Reto</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-glade.jpg" alt="Glade Sidekick">
+      <img src="images/pos-glade.jpg" alt="Glade Sidekick" loading="lazy">
       <div class="caption">
         <p class="title">Glade Sidekick</p>
-        <p class="cat">punto de venta</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-officedepot.jpg" alt="Office Depot — Back to School">
+      <img src="images/pos-officedepot.jpg" alt="Office Depot — Back to School" loading="lazy">
       <div class="caption">
         <p class="title">Office Depot — Back to School</p>
-        <p class="cat">punto de venta</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-off.jpg" alt="OFF! — torre giratoria">
+      <img src="images/pos-off.jpg" alt="OFF! — torre giratoria" loading="lazy">
       <div class="caption">
-        <p class="title">OFF! — torre giratoria</p>
-        <p class="cat">punto de venta</p>
+        <p class="title" data-t="t-off">OFF! — torre giratoria</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-off-shelf.jpg" alt="OFF! — shelf extension">
+      <img src="images/pos-off-shelf.jpg" alt="OFF! — shelf extension" loading="lazy">
       <div class="caption">
         <p class="title">OFF! — shelf extension</p>
-        <p class="cat">punto de venta</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-gatorade.jpg" alt="Gatorade — isla refrigerada">
+      <img src="images/pos-gatorade.jpg" alt="Gatorade — isla refrigerada" loading="lazy">
       <div class="caption">
-        <p class="title">Gatorade — isla refrigerada</p>
-        <p class="cat">punto de venta</p>
+        <p class="title" data-t="t-gatorade">Gatorade — isla refrigerada</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-pepsi.jpg" alt="Pepsi — isla refrigerada">
+      <img src="images/pos-pepsi.jpg" alt="Pepsi — isla refrigerada" loading="lazy">
       <div class="caption">
-        <p class="title">Pepsi — isla refrigerada</p>
-        <p class="cat">punto de venta</p>
+        <p class="title" data-t="t-pepsi">Pepsi — isla refrigerada</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-raid.jpg" alt="Raid — shelf extension">
+      <img src="images/pos-raid.jpg" alt="Raid — shelf extension" loading="lazy">
       <div class="caption">
         <p class="title">Raid — shelf extension</p>
-        <p class="cat">punto de venta</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-maxiklin.jpg" alt="Maxi Klin — pallet">
+      <img src="images/pos-maxiklin.jpg" alt="Maxi Klin — pallet" loading="lazy">
       <div class="caption">
         <p class="title">Maxi Klin — pallet</p>
-        <p class="cat">punto de venta</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-eternelle.jpg" alt="Eternelle — mostrador">
+      <img src="images/pos-eternelle.jpg" alt="Eternelle — mostrador" loading="lazy">
       <div class="caption">
-        <p class="title">Eternelle — mostrador</p>
-        <p class="cat">punto de venta</p>
+        <p class="title" data-t="t-eternelle">Eternelle — mostrador</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-barbie-mural.jpg" alt="Barbie — mural de temporada">
+      <img src="images/pos-barbie-mural.jpg" alt="Barbie — mural de temporada" loading="lazy">
       <div class="caption">
-        <p class="title">Barbie — mural de temporada</p>
-        <p class="cat">punto de venta</p>
+        <p class="title" data-t="t-barbie1">Barbie — mural de temporada</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-barbie-photo.jpg" alt="Barbie — photo opportunity">
+      <img src="images/pos-barbie-photo.jpg" alt="Barbie — photo opportunity" loading="lazy">
       <div class="caption">
         <p class="title">Barbie — photo opportunity</p>
-        <p class="cat">punto de venta</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-maxsteel.jpg" alt="Max Steel — exhibidor">
+      <img src="images/pos-maxsteel.jpg" alt="Max Steel — exhibidor" loading="lazy">
       <div class="caption">
-        <p class="title">Max Steel — exhibidor</p>
-        <p class="cat">punto de venta</p>
+        <p class="title" data-t="t-max">Max Steel — exhibidor</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-pes2013.jpg" alt="PES 2013 — estela promocional">
+      <img src="images/pos-pes2013.jpg" alt="PES 2013 — estela promocional" loading="lazy">
       <div class="caption">
-        <p class="title">PES 2013 — estela promocional</p>
-        <p class="cat">punto de venta</p>
+        <p class="title" data-t="t-pes">PES 2013 — estela promocional</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-dispensador.jpg" alt="Dispensador de producto">
+      <img src="images/pos-dispensador.jpg" alt="Dispensador de producto" loading="lazy">
       <div class="caption">
-        <p class="title">Dispensador de producto</p>
-        <p class="cat">punto de venta</p>
+        <p class="title" data-t="t-disp">Dispensador de producto</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-tablet.jpg" alt="Portador con pantalla">
+      <img src="images/pos-tablet.jpg" alt="Portador con pantalla" loading="lazy">
       <div class="caption">
-        <p class="title">Portador con pantalla</p>
-        <p class="cat">punto de venta</p>
+        <p class="title" data-t="t-tablet">Portador con pantalla</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-impulso.jpg" alt="Tira de impulso">
+      <img src="images/pos-impulso.jpg" alt="Tira de impulso" loading="lazy">
       <div class="caption">
-        <p class="title">Tira de impulso</p>
-        <p class="cat">punto de venta</p>
+        <p class="title" data-t="t-impulso">Tira de impulso</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="pos">
-      <img src="images/pos-storefront.jpg" alt="Rotulación de fachada">
+      <img src="images/pos-storefront.jpg" alt="Rotulación de fachada" loading="lazy">
       <div class="caption">
-        <p class="title">Rotulación de fachada</p>
-        <p class="cat">punto de venta</p>
+        <p class="title" data-t="t-facade">Rotulación de fachada</p>
+        <p class="cat" data-t="pos">pos</p>
       </div>
     </div>
-
     <div class="card" data-cat="eventos">
-      <img src="images/eventos-ebeam.jpg" alt="eBeam — stand de feria">
+      <img src="images/eventos-ebeam.jpg" alt="eBeam — stand de feria" loading="lazy">
       <div class="caption">
-        <p class="title">eBeam — stand de feria</p>
-        <p class="cat">eventos</p>
+        <p class="title" data-t="t-ebeamstand">eBeam — stand de feria</p>
+        <p class="cat" data-t="eventos">eventos</p>
       </div>
     </div>
-
     <div class="card" data-cat="eventos">
-      <img src="images/eventos-standpublicitario.jpg" alt="Stand publicitario">
+      <img src="images/eventos-standpublicitario.jpg" alt="Stand publicitario" loading="lazy">
       <div class="caption">
-        <p class="title">Stand publicitario</p>
-        <p class="cat">eventos</p>
+        <p class="title" data-t="t-stand">Stand publicitario</p>
+        <p class="cat" data-t="eventos">eventos</p>
       </div>
     </div>
     <div class="card" data-cat="ux">
-      <div class="placeholder" style="min-height:150px;"><span>imagen pendiente</span></div>
-      <div class="caption">
-        <p class="title">App para aprender francés</p>
-        <p class="cat">ux / digital</p>
-      </div>
+      <div class="placeholder" style="min-height:150px;"><span data-t="pending">imagen pendiente</span></div>
+      <div class="caption"><p class="title" data-t="t-french">App para aprender francés</p><p class="cat" data-t="ux">ux / digital</p></div>
     </div>
-
     <div class="card" data-cat="ux">
-      <div class="placeholder" style="min-height:165px;"><span>imagen pendiente</span></div>
-      <div class="caption">
-        <p class="title">Casa Creativa Inmobiliaria</p>
-        <p class="cat">ux / digital</p>
-      </div>
+      <div class="placeholder" style="min-height:165px;"><span data-t="pending">imagen pendiente</span></div>
+      <div class="caption"><p class="title">Casa Creativa Inmobiliaria</p><p class="cat" data-t="ux">ux / digital</p></div>
     </div>
-
     <div class="card" data-cat="escolares">
-      <div class="placeholder" style="min-height:140px;"><span>imagen pendiente</span></div>
-      <div class="caption">
-        <p class="title">ME310 — Stanford / UNAM</p>
-        <p class="cat">escolares</p>
-        <p class="desc">Design Thinking Innovation Program, en colaboración con Stanford. 2009–2010.</p>
-      </div>
+      <div class="placeholder" style="min-height:140px;"><span data-t="pending">imagen pendiente</span></div>
+      <div class="caption"><p class="title">ME310 — Stanford / UNAM</p><p class="cat" data-t="escolares">escolares</p><p class="desc" data-t="d-me310">Design Thinking Innovation Program, en colaboración con Stanford. 2009–2010.</p></div>
     </div>
-
-    <div class="card" data-cat="packaging">
-      <div class="placeholder" style="min-height:140px;"><span>imagen pendiente</span></div>
-      <div class="caption">
-        <p class="title">Envases Universales</p>
-        <p class="cat">packaging</p>
-        <p class="desc">Desarrollo de packaging PET/rPET para bebidas, con proveedores OEM Sidel, Husky, Krones y KHS. 2016–2025. 18% reducción de material, 100% integración rPET.</p>
-      </div>
-    </div>
-
   </div>
 
-  <footer>
-    <p>Vic — diseño industrial</p>
-  </footer>
+  <footer><p data-t="footer">Vic — diseño industrial</p></footer>
 </div>
 
+<script src="i18n.js"></script>
+<script src="cases.js"></script>
 <script>
+var CMAP = {}; CASES.forEach(function(c){ CMAP[c.slug] = c; });
+window.onLang = function(l){
+  document.querySelectorAll('.card.case').forEach(function(el){
+    var c = CMAP[el.getAttribute('data-case')];
+    el.querySelector('.title').textContent = c[l].title;
+    el.querySelector('.desc').textContent = c[l].sub;
+    el.querySelector('img').alt = c[l].title;
+    el.href = 'caso.html?c=' + c.slug + '&lang=' + l;
+  });
+};
 document.querySelectorAll('.pill').forEach(function(p){
   p.addEventListener('click', function(){
     document.querySelectorAll('.pill').forEach(function(x){x.classList.remove('active');});
