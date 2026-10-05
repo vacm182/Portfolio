@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Victor Castro Medina — Packaging & Industrial Design</title>
+<meta name="description" content="Victor Castro Medina — Packaging Engineer & Industrial Designer based in Paris. PET/rPET packaging, hardware, point-of-sale and spatial design.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F7F2E9; --ink:#1C1C1A; --dark:#141413; --dark2:#1F1F1C;
+  --steel:#83837A; --line:#DEDED4; --line-d:#34342F; --signal:#C85A28; --signal-l:#E07A48;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans',-apple-system,'Segoe UI',sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.mono{font-family:'IBM Plex Mono',monospace}
+.wrap{max-width:1240px;margin:0 auto;padding:0 32px}
+
+/* nav */
+nav.top{position:fixed;inset:0 0 auto 0;z-index:50;transition:background .3s,border-color .3s;border-bottom:1px solid transparent}
+nav.top.solid{background:rgba(20,20,19,.92);backdrop-filter:blur(8px);border-color:var(--line-d)}
+nav.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;color:#EDEAE2}
+nav.top .brand{font-weight:600;letter-spacing:-.01em}
+nav.top .links{display:flex;gap:28px;align-items:center;font-size:.85rem}
+nav.top .links a{opacity:.75}
+nav.top .links a:hover{opacity:1}
+.lang{display:flex;gap:2px}
+.lang button{font-family:'IBM Plex Mono',monospace;font-size:.7rem;background:none;border:none;color:inherit;opacity:.5;cursor:pointer;padding:4px 6px}
+.lang button.active{opacity:1;color:var(--signal-l)}
+.btn{display:inline-flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:.75rem;padding:11px 18px;border-radius:3px;border:1px solid currentColor;transition:background .2s,color .2s}
+.btn.solid{background:var(--signal);border-color:var(--signal);color:#fff}
+.btn.solid:hover{background:var(--signal-l);border-color:var(--signal-l)}
+.btn.ghost:hover{background:#EDEAE2;color:var(--dark)}
+
+/* hero */
+.hero{background:var(--dark);color:#EDEAE2;padding:140px 0 72px;position:relative}
+.hero-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center}
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:.75rem;color:var(--signal-l);letter-spacing:.06em;text-transform:uppercase;margin-bottom:22px}
+.hero h1{font-size:clamp(2.6rem,5.6vw,4.6rem);line-height:1.02;font-weight:600;letter-spacing:-.03em}
+.hero h1 .thin{font-weight:300;color:#B9B6AC}
+.hero .lede{font-size:1.12rem;line-height:1.55;color:#C9C6BC;max-width:540px;margin:26px 0 34px;font-weight:300}
+.hero .ctas{display:flex;gap:12px;flex-wrap:wrap}
+.mosaic{display:grid;grid-template-columns:1fr 1fr;gap:12px;transform:rotate(-2deg)}
+.mosaic a{overflow:hidden;border-radius:4px;aspect-ratio:4/3;background:#222}
+.mosaic a:nth-child(2){transform:translateY(28px)}
+.mosaic a:nth-child(4){transform:translateY(28px)}
+.mosaic img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.mosaic a:hover img{transform:scale(1.05)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line-d);margin-top:84px;padding-top:30px;gap:24px}
+.stat b{display:block;font-size:2.4rem;font-weight:600;letter-spacing:-.02em;color:#fff}
+.stat b em{font-style:normal;color:var(--signal-l)}
+.stat span{font-size:.82rem;color:#A9A69C;line-height:1.4;display:block;margin-top:4px}
+.clients{border-top:1px solid var(--line-d);margin-top:30px;padding-top:22px;display:flex;flex-wrap:wrap;gap:8px 26px;font-family:'IBM Plex Mono',monospace;font-size:.78rem;color:#8E8B82}
+.clients .lbl{color:var(--signal-l)}
+
+/* section heads */
+section{padding:110px 0}
+.shead{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:56px;gap:24px;flex-wrap:wrap}
+.shead h2{font-size:clamp(2rem,3.6vw,2.9rem);font-weight:600;letter-spacing:-.025em;line-height:1.05}
+.shead p{color:var(--steel);max-width:420px;line-height:1.5}
+
+/* featured */
+.feat{display:grid;grid-template-columns:7fr 5fr;gap:56px;align-items:center;padding:44px 0;border-top:1px solid var(--line)}
+.feat:nth-child(even){grid-template-columns:5fr 7fr}
+.feat:nth-child(even) .fimg{order:2}
+.fimg{display:block;overflow:hidden;border-radius:4px;aspect-ratio:4/3;background:#E9E4DA}
+.fimg img{width:100%;height:100%;object-fit:cover;transition:transform .7s ease}
+.feat:hover .fimg img{transform:scale(1.04)}
+.fnum{font-family:'IBM Plex Mono',monospace;font-size:.75rem;color:var(--signal)}
+.fcat{font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--steel);margin-left:10px;text-transform:uppercase;letter-spacing:.05em}
+.ftxt h3{font-size:clamp(1.6rem,2.6vw,2.2rem);line-height:1.12;font-weight:600;letter-spacing:-.02em;margin:16px 0 14px}
+.ftxt .fsub{color:#55554E;line-height:1.55;font-size:1.02rem}
+.ftxt .fbrand{font-family:'IBM Plex Mono',monospace;font-size:.75rem;color:var(--steel);margin-top:18px}
+.ftxt .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px}
+.chip{font-family:'IBM Plex Mono',monospace;font-size:.7rem;border:1px solid var(--line);border-radius:999px;padding:5px 11px;color:#55554E;background:#FBF8F2}
+.more{display:inline-flex;gap:8px;margin-top:26px;font-family:'IBM Plex Mono',monospace;font-size:.78rem;border-bottom:1px solid var(--ink);padding-bottom:3px}
+.feat:hover .more{color:var(--signal);border-color:var(--signal)}
+
+/* disciplines */
+.disc{background:var(--dark);color:#EDEAE2}
+.disc .shead p{color:#A9A69C}
+.dgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line-d);border:1px solid var(--line-d)}
+.dcell{background:var(--dark);padding:30px 26px 34px;cursor:pointer;transition:background .2s}
+.dcell:hover{background:var(--dark2)}
+.dcell .n{font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:var(--signal-l)}
+.dcell h4{font-size:1.3rem;font-weight:600;margin:40px 0 10px;letter-spacing:-.01em}
+.dcell p{font-size:.88rem;color:#A9A69C;line-height:1.5}
+.dcell .cnt{font-family:'IBM Plex Mono',monospace;font-size:.72rem;margin-top:22px;color:#EDEAE2}
+
+/* all work */
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:36px}
+.pill{font-family:'IBM Plex Mono',monospace;font-size:.75rem;padding:9px 16px;border:1px solid var(--line);border-radius:999px;background:none;color:var(--steel);cursor:pointer}
+.pill:hover{border-color:var(--steel)}
+.pill.active{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px 28px}
+.card .cimg{overflow:hidden;border-radius:4px;aspect-ratio:4/3;background:#E9E4DA}
+.card img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.card:hover img{transform:scale(1.05)}
+.card .meta{display:flex;justify-content:space-between;margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:.68rem;color:var(--steel);text-transform:uppercase;letter-spacing:.04em}
+.card .meta .c{color:var(--signal)}
+.card h5{font-size:1.05rem;font-weight:500;line-height:1.3;margin-top:6px}
+.card:hover h5{color:var(--signal)}
+.note{margin-top:44px;font-size:.85rem;color:var(--steel)}
+.note a{border-bottom:1px solid currentColor}
+
+/* contact */
+.contact{background:var(--dark);color:#EDEAE2;padding:110px 0 50px}
+.contact h2{font-size:clamp(2.4rem,5vw,4rem);font-weight:600;letter-spacing:-.03em;line-height:1.02;max-width:900px}
+.contact h2 span{color:var(--signal-l)}
+.contact .bio{color:#C9C6BC;max-width:620px;line-height:1.6;margin:28px 0 36px;font-weight:300;font-size:1.05rem}
+.contact .row{display:flex;gap:12px;flex-wrap:wrap}
+.foot{display:flex;justify-content:space-between;border-top:1px solid var(--line-d);margin-top:90px;padding-top:22px;font-family:'IBM Plex Mono',monospace;font-size:.72rem;color:#8E8B82;flex-wrap:wrap;gap:10px}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease}
+.rv.in{opacity:1;transform:none}
+
+@media (max-width:900px){
+  .wrap{padding:0 16px}
+  nav.top .links a.hide-m{display:none}
+  .hero{padding:110px 0 56px}
+  .hero-grid,.feat,.feat:nth-child(even){grid-template-columns:1fr;gap:28px}
+  .feat:nth-child(even) .fimg{order:0}
+  .mosaic{transform:none}
+  .stats{grid-template-columns:1fr 1fr;margin-top:50px}
+  .dgrid{grid-template-columns:1fr 1fr}
+  .grid{grid-template-columns:1fr 1fr;gap:28px 16px}
+  section{padding:76px 0}
+}
+@media (max-width:560px){
+  .grid,.dgrid{grid-template-columns:1fr}
+  .stat b{font-size:2rem}
+}
+</style>
+</head>
+<body>
+
+<nav class="top" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">Victor Castro Medina</a>
+    <div class="links">
+      <a class="hide-m" href="#work" data-u="nav_work">Proyectos</a>
+      <a class="hide-m" href="#contact" data-u="nav_contact">Contacto</a>
+      <div class="lang"><button data-lang="es">ES</button><button data-lang="en">EN</button><button data-lang="fr">FR</button></div>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow" data-u="eyebrow">Paris · disponible</p>
+        <h1><span data-u="h1a">Ingeniero de empaque</span><br><span class="thin" data-u="h1b">y diseñador industrial.</span></h1>
+        <p class="lede" data-u="lede"></p>
+        <div class="ctas">
+          <a class="btn solid" href="#featured" data-u="cta1">Ver proyectos ↓</a>
+          <a class="btn ghost" href="mailto:vacm182@hotmail.com" data-u="cta2">Contactar</a>
+        </div>
+      </div>
+      <div class="mosaic" id="mosaic"></div>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>9 <em data-u="yrs">años</em></b><span data-u="s1"></span></div>
+      <div class="stat"><b>20+</b><span data-u="s2"></span></div>
+      <div class="stat"><b>−18<em>%</em></b><span data-u="s3"></span></div>
+      <div class="stat"><b>−30<em>%</em></b><span data-u="s4"></span></div>
+    </div>
+    <div class="clients"><span class="lbl" data-u="clients">Clientes</span><span>Nestlé</span><span>Coca-Cola</span><span>Grupo Bimbo</span><span>ConAgra</span><span>Jumex</span><span>SC Johnson</span><span>PepsiCo</span><span>Mattel</span><span>Disney</span><span>Aeroméxico</span><span>Luidia · eBeam</span></div>
+  </div>
+</header>
+
+<section id="featured">
+  <div class="wrap">
+    <div class="shead rv"><h2 data-u="feat_h">Proyectos destacados</h2><p data-u="feat_p"></p></div>
+    <div id="feats"></div>
+  </div>
+</section>
+
+<section class="disc">
+  <div class="wrap">
+    <div class="shead rv"><h2 data-u="disc_h">Cuatro disciplinas, un mismo método</h2><p data-u="disc_p"></p></div>
+    <div class="dgrid rv" id="dgrid"></div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="shead rv"><h2 data-u="all_h">Todos los proyectos</h2></div>
+    <div class="pills" id="pills"></div>
+    <div class="grid" id="grid"></div>
+    <p class="note"><span data-u="note">¿Más trabajo suelto (stands, UX, escolares)?</span> <a href="index.html" data-u="note_a">Ver archivo completo →</a></p>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2 data-u="ct_h"></h2>
+    <p class="bio" data-t="bio"></p>
+    <div class="row">
+      <a class="btn solid" href="mailto:vacm182@hotmail.com">vacm182@hotmail.com</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/victor-a-castro-medina" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a class="btn ghost" href="#" data-u="cv">Descargar CV</a>
+    </div>
+    <div class="foot"><span>© Victor Castro Medina</span><span>SolidWorks · Keyshot · Rhino · Adobe CS</span></div>
+  </div>
+</section>
+
+<script src="cases.js"></script>
+<script>
+var U = {
+  nav_work:{es:"Proyectos",en:"Work",fr:"Projets"},
+  nav_contact:{es:"Contacto",en:"Contact",fr:"Contact"},
+  eyebrow:{es:"Basado en París · disponible de inmediato",en:"Based in Paris · available now",fr:"Basé à Paris · disponible immédiatement"},
+  h1a:{es:"Ingeniero de empaque",en:"Packaging engineer",fr:"Ingénieur packaging"},
+  h1b:{es:"y diseñador industrial.",en:"& industrial designer.",fr:"et designer industriel."},
+  lede:{es:"Diseño envases y productos desde el boceto hasta la línea de producción. 9 años desarrollando botellas PET/rPET para Nestlé, Coca-Cola y Grupo Bimbo, con experiencia previa en hardware, punto de venta y espacios.",
+        en:"I design packaging and products from first sketch to production line. 9 years developing PET/rPET bottles for Nestlé, Coca-Cola and Grupo Bimbo, with earlier work in hardware, point of sale and spatial design.",
+        fr:"Je conçois emballages et produits du premier croquis à la ligne de production. 9 ans de développement de bouteilles PET/rPET pour Nestlé, Coca-Cola et Grupo Bimbo, et une expérience en hardware, PLV et design d'espaces."},
+  cta1:{es:"Ver proyectos ↓",en:"See projects ↓",fr:"Voir les projets ↓"},
+  cta2:{es:"Contactar",en:"Get in touch",fr:"Me contacter"},
+  yrs:{es:"años",en:"yrs",fr:"ans"},
+  s1:{es:"desarrollando envases PET/rPET en Envases Universales",en:"developing PET/rPET packaging at Envases Universales",fr:"de développement d'emballages PET/rPET chez Envases Universales"},
+  s2:{es:"proyectos de empaque en paralelo, del brief al lanzamiento",en:"packaging projects in parallel, from brief to launch",fr:"projets packaging en parallèle, du brief au lancement"},
+  s3:{es:"de material en componentes en serie, sin perder desempeño",en:"material on series components, with no loss of performance",fr:"de matière sur des composants en série, sans perte de performance"},
+  s4:{es:"de incidentes de calidad post-lanzamiento en cuentas clave",en:"post-launch quality incidents on key accounts",fr:"d'incidents qualité après lancement sur les comptes clés"},
+  clients:{es:"Clientes",en:"Clients",fr:"Clients"},
+  feat_h:{es:"Proyectos destacados",en:"Selected work",fr:"Projets phares"},
+  feat_p:{es:"Seis casos que resumen cómo trabajo: entender el problema, iterar con prototipos y llevarlo a producción.",en:"Six cases that sum up how I work: understand the problem, iterate with prototypes and take it to production.",fr:"Six projets qui résument ma façon de travailler : comprendre le problème, itérer par prototypes et industrialiser."},
+  disc_h:{es:"Cuatro disciplinas, un mismo método",en:"Four disciplines, one method",fr:"Quatre disciplines, une même méthode"},
+  disc_p:{es:"Del envase al espacio: diseño pensado para fabricarse, montarse y funcionar en el mundo real.",en:"From pack to space: design made to be manufactured, assembled and used in the real world.",fr:"De l'emballage à l'espace : un design pensé pour être fabriqué, monté et utilisé dans le monde réel."},
+  all_h:{es:"Todos los proyectos",en:"All projects",fr:"Tous les projets"},
+  note:{es:"¿Más trabajo suelto (stands, UX, escolares)?",en:"More standalone work (booths, UX, academic)?",fr:"Plus de travaux (stands, UX, académique) ?"},
+  note_a:{es:"Ver archivo completo →",en:"See full archive →",fr:"Voir l'archive complète →"},
+  ct_h:{es:"¿Buscas a alguien que lleve el diseño <span>hasta la línea de producción?</span>",en:"Looking for someone who takes design <span>all the way to the production line?</span>",fr:"Vous cherchez quelqu'un qui mène le design <span>jusqu'à la ligne de production ?</span>"},
+  cv:{es:"Descargar CV",en:"Download CV",fr:"Télécharger le CV"},
+  view:{es:"Ver caso",en:"View case",fr:"Voir le projet"}
+};
+var CAT = {
+  packaging:{es:"Packaging",en:"Packaging",fr:"Emballage"},
+  hardware:{es:"Diseño industrial",en:"Industrial design",fr:"Design industriel"},
+  pos:{es:"Punto de venta",en:"Point of sale",fr:"PLV"},
+  eventos:{es:"Espacios y eventos",en:"Spaces & events",fr:"Espaces et événements"}
+};
+var DISC = [
+  {k:"packaging",d:{es:"Botellas PET/rPET, aligeramiento, hot fill, HPP, ingeniería de molde y validación en línea.",en:"PET/rPET bottles, lightweighting, hot fill, HPP, mould engineering and line validation.",fr:"Bouteilles PET/rPET, allègement, hot fill, HPP, ingénierie moule et validation en ligne."}},
+  {k:"hardware",d:{es:"Producto electrónico en Silicon Valley: investigación con usuarios, prototipos y accesorios.",en:"Electronic products in Silicon Valley: user research, prototypes and accessories.",fr:"Produits électroniques dans la Silicon Valley : recherche utilisateurs, prototypes et accessoires."}},
+  {k:"pos",d:{es:"Exhibidores en cartón, coroplast, PVC, termoformado y metal, del suaje al anaquel.",en:"Displays in board, corrugated plastic, PVC, thermoformed parts and metal, from die line to shelf.",fr:"Présentoirs en carton, plastique alvéolaire, PVC, thermoformage et métal, de la découpe au linéaire."}},
+  {k:"eventos",d:{es:"Layouts, escenarios y stands modulares con planos de fabricación y montaje.",en:"Layouts, stages and modular booths with fabrication and assembly drawings.",fr:"Implantations, scènes et stands modulaires avec plans de fabrication et de montage."}}
+];
+var FEATURED = [
+  {s:"maggi", chips:["Vidrio → PET","800 ml · 37 g","Validación en planta"]},
+  {s:"waterpeople", chips:["Sin etiqueta","Ingeniería de molde","1.5 L"]},
+  {s:"barracuda", chips:["17 usuarios en pruebas","Prototipado rápido","Silicon Valley"]},
+  {s:"scjohnson", chips:["15+ exhibidores","5 materiales","Producción en volumen"]},
+  {s:"molde", chips:["Análisis de moldes","Estabilidad","Bidón 10 L apilable"]},
+  {s:"starwars", chips:["56 módulos","Planos de fabricación","Guía de montaje"]}
+];
+var CHIPS_T = {"Vidrio → PET":{en:"Glass → PET",fr:"Verre → PET"},"Validación en planta":{en:"Plant validation",fr:"Validation en usine"},"Sin etiqueta":{en:"Label-free",fr:"Sans étiquette"},"Ingeniería de molde":{en:"Mould engineering",fr:"Ingénierie moule"},"17 usuarios en pruebas":{en:"17 test users",fr:"17 testeurs"},"Prototipado rápido":{en:"Rapid prototyping",fr:"Prototypage rapide"},"15+ exhibidores":{en:"15+ displays",fr:"15+ présentoirs"},"5 materiales":{en:"5 materials",fr:"5 matériaux"},"Producción en volumen":{en:"Volume production",fr:"Production en volume"},"Análisis de moldes":{en:"Mould analysis",fr:"Analyse de moules"},"Estabilidad":{en:"Stability",fr:"Stabilité"},"Bidón 10 L apilable":{en:"Stackable 10 L jug",fr:"Bidon 10 L empilable"},"56 módulos":{en:"56 modules",fr:"56 modules"},"Planos de fabricación":{en:"Fabrication drawings",fr:"Plans de fabrication"},"Guía de montaje":{en:"Assembly guide",fr:"Guide de montage"}};
+var MOSAIC = ["deportivas","barracuda","maggi","glade"];
+var ORDER = ["packaging","hardware","pos","eventos"];
+var CM = {}; CASES.forEach(function(c){ CM[c.slug]=c; c.cat=c.cat||"packaging"; });
+var cur = "todo", L = "es";
+function cover(s){ return "images/covers/"+s+".jpg"; }
+function href(s){ return "caso.html?c="+s+"&lang="+L; }
+function tchip(x){ return (L!=="es" && CHIPS_T[x]) ? CHIPS_T[x][L] : x; }
+
+function render(){
+  document.getElementById("mosaic").innerHTML = MOSAIC.map(function(s){
+    return '<a href="'+href(s)+'"><img src="'+cover(s)+'" alt="'+CM[s][L].title+'"></a>'; }).join("");
+  document.getElementById("feats").innerHTML = FEATURED.map(function(f,i){
+    var c=CM[f.s], t=c[L];
+    return '<a class="feat rv" href="'+href(f.s)+'"><div class="fimg"><img src="'+cover(f.s)+'" alt="'+t.title+'" loading="lazy"></div>'+
+      '<div class="ftxt"><span class="fnum">0'+(i+1)+'</span><span class="fcat">'+CAT[c.cat][L]+'</span><h3>'+t.title+'</h3><p class="fsub">'+t.sub+'</p>'+
+      '<div class="chips">'+f.chips.map(function(x){return '<span class="chip">'+tchip(x)+'</span>';}).join("")+'</div>'+
+      '<p class="fbrand">'+c.brand+'</p><span class="more">'+U.view[L]+' →</span></div></a>'; }).join("");
+  document.getElementById("dgrid").innerHTML = DISC.map(function(d,i){
+    var n=CASES.filter(function(c){return c.cat===d.k;}).length;
+    return '<div class="dcell" data-k="'+d.k+'"><span class="n">0'+(i+1)+'</span><h4>'+CAT[d.k][L]+'</h4><p>'+d.d[L]+'</p><p class="cnt">'+n+' '+(L==="en"?"case studies":L==="fr"?"études de cas":"casos")+' →</p></div>'; }).join("");
+  var pills=[["todo",{es:"Todo",en:"All",fr:"Tout"}]].concat(ORDER.map(function(k){return [k,CAT[k]];}));
+  document.getElementById("pills").innerHTML = pills.map(function(p){
+    return '<button class="pill'+(p[0]===cur?' active':'')+'" data-k="'+p[0]+'">'+p[1][L]+'</button>'; }).join("");
+  var list = CASES.slice().sort(function(a,b){return ORDER.indexOf(a.cat)-ORDER.indexOf(b.cat);})
+    .filter(function(c){return cur==="todo"||c.cat===cur;});
+  document.getElementById("grid").innerHTML = list.map(function(c){
+    return '<a class="card" href="'+href(c.slug)+'"><div class="cimg"><img src="'+cover(c.slug)+'" alt="'+c[L].title+'" loading="lazy"></div>'+
+      '<div class="meta"><span class="c">'+CAT[c.cat][L]+'</span><span>'+c.brand.split(" · ")[0]+'</span></div><h5>'+c[L].title+'</h5></a>'; }).join("");
+  document.querySelectorAll("#pills .pill").forEach(function(b){ b.onclick=function(){ cur=b.dataset.k; render(); }; });
+  document.querySelectorAll(".dcell").forEach(function(d){ d.onclick=function(){ cur=d.dataset.k; render(); document.getElementById("work").scrollIntoView(); }; });
+  observe();
+}
+window.onLang = function(l){
+  L=l;
+  document.querySelectorAll("[data-u]").forEach(function(el){ var k=el.getAttribute("data-u"); if(U[k]) el.innerHTML=U[k][l]; });
+  render();
+};
+function observe(){
+  var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target);} }); },{threshold:.12});
+  document.querySelectorAll(".rv:not(.in)").forEach(function(el){ io.observe(el); });
+}
+var nav=document.getElementById("nav");
+window.addEventListener("scroll",function(){ nav.classList.toggle("solid", window.scrollY>40); });
+</script>
+<script src="i18n.js"></script>
+</body>
+</html>
