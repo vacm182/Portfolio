@@ -206,6 +206,15 @@ section{padding:90px 0}
 .contact h2 span{color:var(--steel)}
 .contact .bio{color:#55554E}
 .foot{border-top:1px solid var(--line);color:var(--steel)}
+
+.show .bars{display:none}
+.show{display:flex;flex-direction:column}
+.show .dots{order:3;justify-content:flex-start}
+.show .dots{display:flex;gap:10px;justify-content:center;margin-top:16px}
+.show .dots button{width:7px;height:7px;border-radius:50%;border:none;padding:0;background:var(--line);cursor:pointer;transition:background .3s,transform .3s}
+.show .dots button:hover{background:var(--steel)}
+.show .dots button.on{background:var(--ink);transform:scale(1.25)}
+.show .stage,.fimg,.card .cimg{background:#ECE7DE}
 </style>
 </head>
 <body>
@@ -333,7 +342,8 @@ var FEATURED = [
 ];
 var CHIPS_T = {"Vidrio → PET":{en:"Glass → PET",fr:"Verre → PET"},"Validación en planta":{en:"Plant validation",fr:"Validation en usine"},"Sin etiqueta":{en:"Label-free",fr:"Sans étiquette"},"Ingeniería de molde":{en:"Mould engineering",fr:"Ingénierie moule"},"17 usuarios en pruebas":{en:"17 test users",fr:"17 testeurs"},"Prototipado rápido":{en:"Rapid prototyping",fr:"Prototypage rapide"},"15+ exhibidores":{en:"15+ displays",fr:"15+ présentoirs"},"5 materiales":{en:"5 materials",fr:"5 matériaux"},"Producción en volumen":{en:"Volume production",fr:"Production en volume"},"Análisis de moldes":{en:"Mould analysis",fr:"Analyse de moules"},"Estabilidad":{en:"Stability",fr:"Stabilité"},"Bidón 10 L apilable":{en:"Stackable 10 L jug",fr:"Bidon 10 L empilable"},"56 módulos":{en:"56 modules",fr:"56 modules"},"Planos de fabricación":{en:"Fabrication drawings",fr:"Plans de fabrication"},"Guía de montaje":{en:"Assembly guide",fr:"Guide de montage"}};
 var SLIDES = ["deportivas","maggi","barracuda","glade","starwars","coronado","aoc","juslab","waterpeople","stands"];
-var DUR = 4500, si = 0, timer = null;
+var DUR = 4500, si = 0, timer = null, paused = false;
+function restart(){ clearInterval(timer); timer=setInterval(function(){ if(!paused && !document.hidden) go(si+1); }, DUR); }
 var ORDER = ["packaging","hardware","pos","eventos"];
 var CM = {}; CASES.forEach(function(c){ CM[c.slug]=c; c.cat=c.cat||"packaging"; });
 var cur = "todo", L = "es";
@@ -373,18 +383,20 @@ function buildShow(){
   var el=document.getElementById("show");
   el.style.setProperty("--dur",DUR+"ms");
   el.innerHTML = '<div class="stage">'+SLIDES.map(function(s,i){ return '<a class="sl'+(i===si?' on':'')+'" href="'+href(s)+'"><img src="'+cover(s)+'" alt="'+CM[s][L].title+'"'+(i>1?' loading="lazy"':'')+'></a>'; }).join("")+'</div>'+
-    '<div class="bars">'+SLIDES.map(function(s,i){return '<i data-i="'+i+'"><b></b></i>';}).join("")+'</div>'+
+    '<div class="dots">'+SLIDES.map(function(s,i){return '<button data-i="'+i+'" aria-label="'+(i+1)+'"></button>';}).join("")+'</div>'+
     '<div class="cap"><div><div class="cc" id="scc"></div><div class="ct" id="sct"></div></div><span class="go">'+U.view[L]+' →</span></div>';
-  el.querySelectorAll(".bars i").forEach(function(b){ b.onclick=function(e){ e.preventDefault(); go(+b.dataset.i); }; });
+  el.querySelectorAll(".dots button").forEach(function(b){ b.onclick=function(e){ e.preventDefault(); go(+b.dataset.i); restart(); }; });
+  el.onmouseenter=function(){ paused=true; }; el.onmouseleave=function(){ paused=false; };
+  restart();
   el.querySelector(".cap .go").onclick=function(){ location.href=href(SLIDES[si]); };
   go(si);
 }
 function go(n){
   var el=document.getElementById("show"); si=(n+SLIDES.length)%SLIDES.length;
   el.querySelectorAll(".sl").forEach(function(x,i){ x.classList.toggle("on",i===si); });
-  el.querySelectorAll(".bars i").forEach(function(b,i){ b.className = i<si?"done":(i===si?"run":""); });
+  el.querySelectorAll(".dots button").forEach(function(b,i){ b.classList.toggle("on",i===si); });
   var c=CM[SLIDES[si]]; document.getElementById("scc").textContent=CAT[c.cat][L]+" · "+c.brand.split(" · ")[0]; document.getElementById("sct").textContent=c[L].title;
-  var bar=el.querySelector(".bars i.run b"); if(bar){ bar.onanimationend=function(){ go(si+1); }; }
+var bar=el.querySelector(".bars i.run b"); if(bar){ bar.onanimationend=function(){ go(si+1); }; }
 }
 function observe(){
   var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add("in"); var w=e.target.querySelector(".wipe"); if(w) w.classList.add("in"); io.unobserve(e.target);} }); },{threshold:.12});
